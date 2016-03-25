@@ -115,6 +115,7 @@ public class DriverApp{
 		//Initializing Webdriver
 				//dr = new FirefoxDriver();
 		browser = CONFIG.getProperty("browser");
+		//comment
 				
 				if(browser.equalsIgnoreCase("firefox")){					
 					FirefoxProfile fp = new FirefoxProfile();
