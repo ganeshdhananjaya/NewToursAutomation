@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="New Tours Automation Suite">
+
+<test name="Driver Script Suite 2 - RegisterLinkTest">
+    <classes>
+        <class name="com.automation.NewTours.Apps.DriverApp" ></class>
+        
+    </classes>
+</test>
+
+</suite>
+

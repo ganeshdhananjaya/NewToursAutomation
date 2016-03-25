@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [New Tours Automation Suite]">
+  <test name="Driver Script Suite 2 - RegisterLinkTest(failed)" preserve-order="true">
+    <classes>
+      <class name="com.automation.NewTours.Apps.DriverApp">
+        <methods>
+          <include name="startTesting"/>
+          <include name="testApp"/>
+        </methods>
+      </class> <!-- com.automation.NewTours.Apps.DriverApp -->
+    </classes>
+  </test> <!-- Driver Script Suite 2 - RegisterLinkTest(failed) -->
+</suite> <!-- Failed suite [New Tours Automation Suite] -->

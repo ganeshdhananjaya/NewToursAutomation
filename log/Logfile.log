@@ -1,0 +1,700 @@
+2016-03-10 11:47:29 DEBUG RequestAddCookies:122 - CookieSpec selected: best-match
+2016-03-10 11:47:29 DEBUG RequestAuthCache:75 - Auth cache not set in the context
+2016-03-10 11:47:29 DEBUG PoolingHttpClientConnectionManager:219 - Connection request: [route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2016-03-10 11:47:29 DEBUG PoolingHttpClientConnectionManager:250 - Connection leased: [id: 0][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2016-03-10 11:47:29 DEBUG MainClientExec:217 - Opening connection {}->http://127.0.0.1:7055
+2016-03-10 11:47:29 DEBUG HttpClientConnectionOperator:120 - Connecting to /127.0.0.1:7055
+2016-03-10 11:47:29 DEBUG HttpClientConnectionOperator:127 - Connection established 127.0.0.1:55957<->127.0.0.1:7055
+2016-03-10 11:47:29 DEBUG MainClientExec:238 - Executing request POST /hub/session HTTP/1.1
+2016-03-10 11:47:29 DEBUG MainClientExec:243 - Target auth state: UNCHALLENGED
+2016-03-10 11:47:29 DEBUG MainClientExec:249 - Proxy auth state: UNCHALLENGED
+2016-03-10 11:47:29 DEBUG headers:124 - http-outgoing-0 >> POST /hub/session HTTP/1.1
+2016-03-10 11:47:29 DEBUG headers:127 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2016-03-10 11:47:29 DEBUG headers:127 - http-outgoing-0 >> Content-Length: 105
+2016-03-10 11:47:29 DEBUG headers:127 - http-outgoing-0 >> Host: 127.0.0.1:7055
+2016-03-10 11:47:29 DEBUG headers:127 - http-outgoing-0 >> Connection: Keep-Alive
+2016-03-10 11:47:29 DEBUG headers:127 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.3.4 (java 1.5)
+2016-03-10 11:47:29 DEBUG headers:127 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2016-03-10 11:47:29 DEBUG wire:72 - http-outgoing-0 >> "POST /hub/session HTTP/1.1[\r][\n]"
+2016-03-10 11:47:29 DEBUG wire:72 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2016-03-10 11:47:29 DEBUG wire:72 - http-outgoing-0 >> "Content-Length: 105[\r][\n]"
+2016-03-10 11:47:29 DEBUG wire:72 - http-outgoing-0 >> "Host: 127.0.0.1:7055[\r][\n]"
+2016-03-10 11:47:29 DEBUG wire:72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2016-03-10 11:47:29 DEBUG wire:72 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.3.4 (java 1.5)[\r][\n]"
+2016-03-10 11:47:29 DEBUG wire:72 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2016-03-10 11:47:29 DEBUG wire:72 - http-outgoing-0 >> "[\r][\n]"
+2016-03-10 11:47:29 DEBUG wire:86 - http-outgoing-0 >> "{"desiredCapabilities":{"platform":"ANY","browserName":"firefox","version":""},"requiredCapabilities":{}}"
+2016-03-10 11:47:30 DEBUG wire:72 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2016-03-10 11:47:30 DEBUG wire:72 - http-outgoing-0 << "content-type: application/json; charset=UTF-8[\r][\n]"
+2016-03-10 11:47:30 DEBUG wire:72 - http-outgoing-0 << "connection: close[\r][\n]"
+2016-03-10 11:47:30 DEBUG wire:72 - http-outgoing-0 << "content-length: 421[\r][\n]"
+2016-03-10 11:47:30 DEBUG wire:72 - http-outgoing-0 << "server: httpd.js[\r][\n]"
+2016-03-10 11:47:30 DEBUG wire:72 - http-outgoing-0 << "date: Thu, 10 Mar 2016 06:17:30 GMT[\r][\n]"
+2016-03-10 11:47:30 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+2016-03-10 11:47:30 DEBUG headers:113 - http-outgoing-0 << HTTP/1.1 200 OK
+2016-03-10 11:47:30 DEBUG headers:116 - http-outgoing-0 << content-type: application/json; charset=UTF-8
+2016-03-10 11:47:30 DEBUG headers:116 - http-outgoing-0 << connection: close
+2016-03-10 11:47:30 DEBUG headers:116 - http-outgoing-0 << content-length: 421
+2016-03-10 11:47:30 DEBUG headers:116 - http-outgoing-0 << server: httpd.js
+2016-03-10 11:47:30 DEBUG headers:116 - http-outgoing-0 << date: Thu, 10 Mar 2016 06:17:30 GMT
+2016-03-10 11:47:30 DEBUG wire:86 - http-outgoing-0 << "{"name":"newSession","sessionId":"6b21c2de-c913-4899-b228-c19dd7e5bfda","status":0,"value":{"cssSelectorsEnabled":true,"browserName":"firefox","handlesAlerts":true,"javascriptEnabled":true,"nativeEvents":false,"platform":"WINDOWS","rotatable":false,"takesScreenshot":true,"version":"33.0","webStorageEnabled":true,"applicationCacheEnabled":true,"databaseEnabled":true,"locationContextEnabled":true,"acceptSslCerts":true}}"
+2016-03-10 11:47:30 DEBUG DefaultManagedHttpClientConnection:87 - http-outgoing-0: Shutdown connection
+2016-03-10 11:47:30 DEBUG MainClientExec:126 - Connection discarded
+2016-03-10 11:47:30 DEBUG DefaultManagedHttpClientConnection:79 - http-outgoing-0: Close connection
+2016-03-10 11:47:30 DEBUG PoolingHttpClientConnectionManager:286 - Connection released: [id: 0][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2016-03-10 11:47:30 DEBUG RequestAddCookies:122 - CookieSpec selected: best-match
+2016-03-10 11:47:30 DEBUG RequestAuthCache:75 - Auth cache not set in the context
+2016-03-10 11:47:30 DEBUG PoolingHttpClientConnectionManager:219 - Connection request: [route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2016-03-10 11:47:30 DEBUG PoolingHttpClientConnectionManager:250 - Connection leased: [id: 1][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2016-03-10 11:47:30 DEBUG MainClientExec:217 - Opening connection {}->http://127.0.0.1:7055
+2016-03-10 11:47:30 DEBUG HttpClientConnectionOperator:120 - Connecting to /127.0.0.1:7055
+2016-03-10 11:47:30 DEBUG HttpClientConnectionOperator:127 - Connection established 127.0.0.1:55965<->127.0.0.1:7055
+2016-03-10 11:47:30 DEBUG MainClientExec:238 - Executing request POST /hub/session/6b21c2de-c913-4899-b228-c19dd7e5bfda/window/current/maximize HTTP/1.1
+2016-03-10 11:47:30 DEBUG MainClientExec:243 - Target auth state: UNCHALLENGED
+2016-03-10 11:47:30 DEBUG MainClientExec:249 - Proxy auth state: UNCHALLENGED
+2016-03-10 11:47:30 DEBUG headers:124 - http-outgoing-1 >> POST /hub/session/6b21c2de-c913-4899-b228-c19dd7e5bfda/window/current/maximize HTTP/1.1
+2016-03-10 11:47:30 DEBUG headers:127 - http-outgoing-1 >> Content-Type: application/json; charset=utf-8
+2016-03-10 11:47:30 DEBUG headers:127 - http-outgoing-1 >> Content-Length: 26
+2016-03-10 11:47:30 DEBUG headers:127 - http-outgoing-1 >> Host: 127.0.0.1:7055
+2016-03-10 11:47:30 DEBUG headers:127 - http-outgoing-1 >> Connection: Keep-Alive
+2016-03-10 11:47:30 DEBUG headers:127 - http-outgoing-1 >> User-Agent: Apache-HttpClient/4.3.4 (java 1.5)
+2016-03-10 11:47:30 DEBUG headers:127 - http-outgoing-1 >> Accept-Encoding: gzip,deflate
+2016-03-10 11:47:30 DEBUG wire:72 - http-outgoing-1 >> "POST /hub/session/6b21c2de-c913-4899-b228-c19dd7e5bfda/window/current/maximize HTTP/1.1[\r][\n]"
+2016-03-10 11:47:30 DEBUG wire:72 - http-outgoing-1 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2016-03-10 11:47:30 DEBUG wire:72 - http-outgoing-1 >> "Content-Length: 26[\r][\n]"
+2016-03-10 11:47:30 DEBUG wire:72 - http-outgoing-1 >> "Host: 127.0.0.1:7055[\r][\n]"
+2016-03-10 11:47:30 DEBUG wire:72 - http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+2016-03-10 11:47:30 DEBUG wire:72 - http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.3.4 (java 1.5)[\r][\n]"
+2016-03-10 11:47:30 DEBUG wire:72 - http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2016-03-10 11:47:30 DEBUG wire:72 - http-outgoing-1 >> "[\r][\n]"
+2016-03-10 11:47:30 DEBUG wire:86 - http-outgoing-1 >> "{"windowHandle":"current"}"
+2016-03-10 11:47:30 DEBUG wire:72 - http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+2016-03-10 11:47:30 DEBUG wire:72 - http-outgoing-1 << "content-type: application/json; charset=UTF-8[\r][\n]"
+2016-03-10 11:47:30 DEBUG wire:72 - http-outgoing-1 << "connection: close[\r][\n]"
+2016-03-10 11:47:30 DEBUG wire:72 - http-outgoing-1 << "content-length: 98[\r][\n]"
+2016-03-10 11:47:30 DEBUG wire:72 - http-outgoing-1 << "server: httpd.js[\r][\n]"
+2016-03-10 11:47:30 DEBUG wire:72 - http-outgoing-1 << "date: Thu, 10 Mar 2016 06:17:30 GMT[\r][\n]"
+2016-03-10 11:47:30 DEBUG wire:72 - http-outgoing-1 << "[\r][\n]"
+2016-03-10 11:47:30 DEBUG headers:113 - http-outgoing-1 << HTTP/1.1 200 OK
+2016-03-10 11:47:30 DEBUG headers:116 - http-outgoing-1 << content-type: application/json; charset=UTF-8
+2016-03-10 11:47:30 DEBUG headers:116 - http-outgoing-1 << connection: close
+2016-03-10 11:47:30 DEBUG headers:116 - http-outgoing-1 << content-length: 98
+2016-03-10 11:47:30 DEBUG headers:116 - http-outgoing-1 << server: httpd.js
+2016-03-10 11:47:30 DEBUG headers:116 - http-outgoing-1 << date: Thu, 10 Mar 2016 06:17:30 GMT
+2016-03-10 11:47:30 DEBUG wire:86 - http-outgoing-1 << "{"name":"maximizeWindow","sessionId":"6b21c2de-c913-4899-b228-c19dd7e5bfda","status":0,"value":""}"
+2016-03-10 11:47:30 DEBUG DefaultManagedHttpClientConnection:87 - http-outgoing-1: Shutdown connection
+2016-03-10 11:47:30 DEBUG MainClientExec:126 - Connection discarded
+2016-03-10 11:47:30 DEBUG DefaultManagedHttpClientConnection:79 - http-outgoing-1: Close connection
+2016-03-10 11:47:30 DEBUG PoolingHttpClientConnectionManager:286 - Connection released: [id: 1][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2016-03-10 11:47:30 DEBUG RequestAddCookies:122 - CookieSpec selected: best-match
+2016-03-10 11:47:30 DEBUG RequestAuthCache:75 - Auth cache not set in the context
+2016-03-10 11:47:30 DEBUG PoolingHttpClientConnectionManager:219 - Connection request: [route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2016-03-10 11:47:30 DEBUG PoolingHttpClientConnectionManager:250 - Connection leased: [id: 2][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2016-03-10 11:47:30 DEBUG MainClientExec:217 - Opening connection {}->http://127.0.0.1:7055
+2016-03-10 11:47:30 DEBUG HttpClientConnectionOperator:120 - Connecting to /127.0.0.1:7055
+2016-03-10 11:47:30 DEBUG HttpClientConnectionOperator:127 - Connection established 127.0.0.1:55967<->127.0.0.1:7055
+2016-03-10 11:47:30 DEBUG MainClientExec:238 - Executing request POST /hub/session/6b21c2de-c913-4899-b228-c19dd7e5bfda/timeouts HTTP/1.1
+2016-03-10 11:47:30 DEBUG MainClientExec:243 - Target auth state: UNCHALLENGED
+2016-03-10 11:47:30 DEBUG MainClientExec:249 - Proxy auth state: UNCHALLENGED
+2016-03-10 11:47:30 DEBUG headers:124 - http-outgoing-2 >> POST /hub/session/6b21c2de-c913-4899-b228-c19dd7e5bfda/timeouts HTTP/1.1
+2016-03-10 11:47:30 DEBUG headers:127 - http-outgoing-2 >> Content-Type: application/json; charset=utf-8
+2016-03-10 11:47:30 DEBUG headers:127 - http-outgoing-2 >> Content-Length: 30
+2016-03-10 11:47:30 DEBUG headers:127 - http-outgoing-2 >> Host: 127.0.0.1:7055
+2016-03-10 11:47:30 DEBUG headers:127 - http-outgoing-2 >> Connection: Keep-Alive
+2016-03-10 11:47:30 DEBUG headers:127 - http-outgoing-2 >> User-Agent: Apache-HttpClient/4.3.4 (java 1.5)
+2016-03-10 11:47:30 DEBUG headers:127 - http-outgoing-2 >> Accept-Encoding: gzip,deflate
+2016-03-10 11:47:30 DEBUG wire:72 - http-outgoing-2 >> "POST /hub/session/6b21c2de-c913-4899-b228-c19dd7e5bfda/timeouts HTTP/1.1[\r][\n]"
+2016-03-10 11:47:30 DEBUG wire:72 - http-outgoing-2 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2016-03-10 11:47:30 DEBUG wire:72 - http-outgoing-2 >> "Content-Length: 30[\r][\n]"
+2016-03-10 11:47:30 DEBUG wire:72 - http-outgoing-2 >> "Host: 127.0.0.1:7055[\r][\n]"
+2016-03-10 11:47:30 DEBUG wire:72 - http-outgoing-2 >> "Connection: Keep-Alive[\r][\n]"
+2016-03-10 11:47:30 DEBUG wire:72 - http-outgoing-2 >> "User-Agent: Apache-HttpClient/4.3.4 (java 1.5)[\r][\n]"
+2016-03-10 11:47:30 DEBUG wire:72 - http-outgoing-2 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2016-03-10 11:47:30 DEBUG wire:72 - http-outgoing-2 >> "[\r][\n]"
+2016-03-10 11:47:30 DEBUG wire:86 - http-outgoing-2 >> "{"ms":30000,"type":"implicit"}"
+2016-03-10 11:47:30 DEBUG wire:72 - http-outgoing-2 << "HTTP/1.1 200 OK[\r][\n]"
+2016-03-10 11:47:30 DEBUG wire:72 - http-outgoing-2 << "content-type: application/json; charset=UTF-8[\r][\n]"
+2016-03-10 11:47:30 DEBUG wire:72 - http-outgoing-2 << "connection: close[\r][\n]"
+2016-03-10 11:47:30 DEBUG wire:72 - http-outgoing-2 << "content-length: 94[\r][\n]"
+2016-03-10 11:47:30 DEBUG wire:72 - http-outgoing-2 << "server: httpd.js[\r][\n]"
+2016-03-10 11:47:30 DEBUG wire:72 - http-outgoing-2 << "date: Thu, 10 Mar 2016 06:17:30 GMT[\r][\n]"
+2016-03-10 11:47:30 DEBUG wire:72 - http-outgoing-2 << "[\r][\n]"
+2016-03-10 11:47:30 DEBUG headers:113 - http-outgoing-2 << HTTP/1.1 200 OK
+2016-03-10 11:47:30 DEBUG headers:116 - http-outgoing-2 << content-type: application/json; charset=UTF-8
+2016-03-10 11:47:30 DEBUG headers:116 - http-outgoing-2 << connection: close
+2016-03-10 11:47:30 DEBUG headers:116 - http-outgoing-2 << content-length: 94
+2016-03-10 11:47:30 DEBUG headers:116 - http-outgoing-2 << server: httpd.js
+2016-03-10 11:47:30 DEBUG headers:116 - http-outgoing-2 << date: Thu, 10 Mar 2016 06:17:30 GMT
+2016-03-10 11:47:30 DEBUG wire:86 - http-outgoing-2 << "{"name":"setTimeout","sessionId":"6b21c2de-c913-4899-b228-c19dd7e5bfda","status":0,"value":""}"
+2016-03-10 11:47:30 DEBUG DefaultManagedHttpClientConnection:87 - http-outgoing-2: Shutdown connection
+2016-03-10 11:47:30 DEBUG MainClientExec:126 - Connection discarded
+2016-03-10 11:47:30 DEBUG DefaultManagedHttpClientConnection:79 - http-outgoing-2: Close connection
+2016-03-10 11:47:30 DEBUG PoolingHttpClientConnectionManager:286 - Connection released: [id: 2][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2016-03-10 11:47:30 DEBUG Log4JPropertiesTest:185 - Executing the test CheckSignON
+2016-03-10 11:47:30 DEBUG Log4JPropertiesTest:69 - Executing Navigate
+2016-03-10 11:47:30 DEBUG RequestAddCookies:122 - CookieSpec selected: best-match
+2016-03-10 11:47:30 DEBUG RequestAuthCache:75 - Auth cache not set in the context
+2016-03-10 11:47:30 DEBUG PoolingHttpClientConnectionManager:219 - Connection request: [route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2016-03-10 11:47:30 DEBUG PoolingHttpClientConnectionManager:250 - Connection leased: [id: 3][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2016-03-10 11:47:30 DEBUG MainClientExec:217 - Opening connection {}->http://127.0.0.1:7055
+2016-03-10 11:47:30 DEBUG HttpClientConnectionOperator:120 - Connecting to /127.0.0.1:7055
+2016-03-10 11:47:30 DEBUG HttpClientConnectionOperator:127 - Connection established 127.0.0.1:55968<->127.0.0.1:7055
+2016-03-10 11:47:30 DEBUG MainClientExec:238 - Executing request POST /hub/session/6b21c2de-c913-4899-b228-c19dd7e5bfda/url HTTP/1.1
+2016-03-10 11:47:30 DEBUG MainClientExec:243 - Target auth state: UNCHALLENGED
+2016-03-10 11:47:30 DEBUG MainClientExec:249 - Proxy auth state: UNCHALLENGED
+2016-03-10 11:47:30 DEBUG headers:124 - http-outgoing-3 >> POST /hub/session/6b21c2de-c913-4899-b228-c19dd7e5bfda/url HTTP/1.1
+2016-03-10 11:47:30 DEBUG headers:127 - http-outgoing-3 >> Content-Type: application/json; charset=utf-8
+2016-03-10 11:47:30 DEBUG headers:127 - http-outgoing-3 >> Content-Length: 38
+2016-03-10 11:47:30 DEBUG headers:127 - http-outgoing-3 >> Host: 127.0.0.1:7055
+2016-03-10 11:47:30 DEBUG headers:127 - http-outgoing-3 >> Connection: Keep-Alive
+2016-03-10 11:47:30 DEBUG headers:127 - http-outgoing-3 >> User-Agent: Apache-HttpClient/4.3.4 (java 1.5)
+2016-03-10 11:47:30 DEBUG headers:127 - http-outgoing-3 >> Accept-Encoding: gzip,deflate
+2016-03-10 11:47:30 DEBUG wire:72 - http-outgoing-3 >> "POST /hub/session/6b21c2de-c913-4899-b228-c19dd7e5bfda/url HTTP/1.1[\r][\n]"
+2016-03-10 11:47:30 DEBUG wire:72 - http-outgoing-3 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2016-03-10 11:47:30 DEBUG wire:72 - http-outgoing-3 >> "Content-Length: 38[\r][\n]"
+2016-03-10 11:47:30 DEBUG wire:72 - http-outgoing-3 >> "Host: 127.0.0.1:7055[\r][\n]"
+2016-03-10 11:47:30 DEBUG wire:72 - http-outgoing-3 >> "Connection: Keep-Alive[\r][\n]"
+2016-03-10 11:47:30 DEBUG wire:72 - http-outgoing-3 >> "User-Agent: Apache-HttpClient/4.3.4 (java 1.5)[\r][\n]"
+2016-03-10 11:47:30 DEBUG wire:72 - http-outgoing-3 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2016-03-10 11:47:30 DEBUG wire:72 - http-outgoing-3 >> "[\r][\n]"
+2016-03-10 11:47:30 DEBUG wire:86 - http-outgoing-3 >> "{"url":"http://newtours.demoaut.com/"}"
+2016-03-10 11:47:35 DEBUG wire:72 - http-outgoing-3 << "HTTP/1.1 200 OK[\r][\n]"
+2016-03-10 11:47:35 DEBUG wire:72 - http-outgoing-3 << "content-type: application/json; charset=UTF-8[\r][\n]"
+2016-03-10 11:47:35 DEBUG wire:72 - http-outgoing-3 << "connection: close[\r][\n]"
+2016-03-10 11:47:35 DEBUG wire:72 - http-outgoing-3 << "content-length: 87[\r][\n]"
+2016-03-10 11:47:35 DEBUG wire:72 - http-outgoing-3 << "server: httpd.js[\r][\n]"
+2016-03-10 11:47:35 DEBUG wire:72 - http-outgoing-3 << "date: Thu, 10 Mar 2016 06:17:35 GMT[\r][\n]"
+2016-03-10 11:47:35 DEBUG wire:72 - http-outgoing-3 << "[\r][\n]"
+2016-03-10 11:47:35 DEBUG headers:113 - http-outgoing-3 << HTTP/1.1 200 OK
+2016-03-10 11:47:35 DEBUG headers:116 - http-outgoing-3 << content-type: application/json; charset=UTF-8
+2016-03-10 11:47:35 DEBUG headers:116 - http-outgoing-3 << connection: close
+2016-03-10 11:47:35 DEBUG headers:116 - http-outgoing-3 << content-length: 87
+2016-03-10 11:47:35 DEBUG headers:116 - http-outgoing-3 << server: httpd.js
+2016-03-10 11:47:35 DEBUG headers:116 - http-outgoing-3 << date: Thu, 10 Mar 2016 06:17:35 GMT
+2016-03-10 11:47:35 DEBUG wire:86 - http-outgoing-3 << "{"name":"get","sessionId":"6b21c2de-c913-4899-b228-c19dd7e5bfda","status":0,"value":""}"
+2016-03-10 11:47:35 DEBUG DefaultManagedHttpClientConnection:87 - http-outgoing-3: Shutdown connection
+2016-03-10 11:47:35 DEBUG MainClientExec:126 - Connection discarded
+2016-03-10 11:47:35 DEBUG DefaultManagedHttpClientConnection:79 - http-outgoing-3: Close connection
+2016-03-10 11:47:35 DEBUG PoolingHttpClientConnectionManager:286 - Connection released: [id: 3][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2016-03-10 11:47:35 DEBUG Log4JPropertiesTest:198 - ***Result of execution -- Pass
+2016-03-10 11:47:35 DEBUG Log4JPropertiesTest:81 - Executing clickLink
+2016-03-10 11:47:35 DEBUG RequestAddCookies:122 - CookieSpec selected: best-match
+2016-03-10 11:47:35 DEBUG RequestAuthCache:75 - Auth cache not set in the context
+2016-03-10 11:47:35 DEBUG PoolingHttpClientConnectionManager:219 - Connection request: [route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2016-03-10 11:47:35 DEBUG PoolingHttpClientConnectionManager:250 - Connection leased: [id: 4][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2016-03-10 11:47:35 DEBUG MainClientExec:217 - Opening connection {}->http://127.0.0.1:7055
+2016-03-10 11:47:35 DEBUG HttpClientConnectionOperator:120 - Connecting to /127.0.0.1:7055
+2016-03-10 11:47:35 DEBUG HttpClientConnectionOperator:127 - Connection established 127.0.0.1:55998<->127.0.0.1:7055
+2016-03-10 11:47:35 DEBUG MainClientExec:238 - Executing request POST /hub/session/6b21c2de-c913-4899-b228-c19dd7e5bfda/element HTTP/1.1
+2016-03-10 11:47:35 DEBUG MainClientExec:243 - Target auth state: UNCHALLENGED
+2016-03-10 11:47:35 DEBUG MainClientExec:249 - Proxy auth state: UNCHALLENGED
+2016-03-10 11:47:35 DEBUG headers:124 - http-outgoing-4 >> POST /hub/session/6b21c2de-c913-4899-b228-c19dd7e5bfda/element HTTP/1.1
+2016-03-10 11:47:35 DEBUG headers:127 - http-outgoing-4 >> Content-Type: application/json; charset=utf-8
+2016-03-10 11:47:35 DEBUG headers:127 - http-outgoing-4 >> Content-Length: 109
+2016-03-10 11:47:35 DEBUG headers:127 - http-outgoing-4 >> Host: 127.0.0.1:7055
+2016-03-10 11:47:35 DEBUG headers:127 - http-outgoing-4 >> Connection: Keep-Alive
+2016-03-10 11:47:35 DEBUG headers:127 - http-outgoing-4 >> User-Agent: Apache-HttpClient/4.3.4 (java 1.5)
+2016-03-10 11:47:35 DEBUG headers:127 - http-outgoing-4 >> Accept-Encoding: gzip,deflate
+2016-03-10 11:47:35 DEBUG wire:72 - http-outgoing-4 >> "POST /hub/session/6b21c2de-c913-4899-b228-c19dd7e5bfda/element HTTP/1.1[\r][\n]"
+2016-03-10 11:47:35 DEBUG wire:72 - http-outgoing-4 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2016-03-10 11:47:35 DEBUG wire:72 - http-outgoing-4 >> "Content-Length: 109[\r][\n]"
+2016-03-10 11:47:35 DEBUG wire:72 - http-outgoing-4 >> "Host: 127.0.0.1:7055[\r][\n]"
+2016-03-10 11:47:35 DEBUG wire:72 - http-outgoing-4 >> "Connection: Keep-Alive[\r][\n]"
+2016-03-10 11:47:35 DEBUG wire:72 - http-outgoing-4 >> "User-Agent: Apache-HttpClient/4.3.4 (java 1.5)[\r][\n]"
+2016-03-10 11:47:35 DEBUG wire:72 - http-outgoing-4 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2016-03-10 11:47:35 DEBUG wire:72 - http-outgoing-4 >> "[\r][\n]"
+2016-03-10 11:47:35 DEBUG wire:86 - http-outgoing-4 >> "{"using":"xpath","value":"html/body/div[1]/table/tbody/tr/td[2]/table/tbody/tr[2]/td/table/tbody/tr/td[1]/a"}"
+2016-03-10 11:47:35 DEBUG wire:72 - http-outgoing-4 << "HTTP/1.1 200 OK[\r][\n]"
+2016-03-10 11:47:35 DEBUG wire:72 - http-outgoing-4 << "content-type: application/json; charset=UTF-8[\r][\n]"
+2016-03-10 11:47:35 DEBUG wire:72 - http-outgoing-4 << "connection: close[\r][\n]"
+2016-03-10 11:47:35 DEBUG wire:72 - http-outgoing-4 << "content-length: 145[\r][\n]"
+2016-03-10 11:47:35 DEBUG wire:72 - http-outgoing-4 << "server: httpd.js[\r][\n]"
+2016-03-10 11:47:35 DEBUG wire:72 - http-outgoing-4 << "date: Thu, 10 Mar 2016 06:17:35 GMT[\r][\n]"
+2016-03-10 11:47:35 DEBUG wire:72 - http-outgoing-4 << "[\r][\n]"
+2016-03-10 11:47:35 DEBUG headers:113 - http-outgoing-4 << HTTP/1.1 200 OK
+2016-03-10 11:47:35 DEBUG headers:116 - http-outgoing-4 << content-type: application/json; charset=UTF-8
+2016-03-10 11:47:35 DEBUG headers:116 - http-outgoing-4 << connection: close
+2016-03-10 11:47:35 DEBUG headers:116 - http-outgoing-4 << content-length: 145
+2016-03-10 11:47:35 DEBUG headers:116 - http-outgoing-4 << server: httpd.js
+2016-03-10 11:47:35 DEBUG headers:116 - http-outgoing-4 << date: Thu, 10 Mar 2016 06:17:35 GMT
+2016-03-10 11:47:35 DEBUG wire:86 - http-outgoing-4 << "{"name":"findElement","sessionId":"6b21c2de-c913-4899-b228-c19dd7e5bfda","status":0,"value":{"ELEMENT":"{01d16ce6-76da-47ee-9491-0841a758e29a}"}}"
+2016-03-10 11:47:35 DEBUG DefaultManagedHttpClientConnection:87 - http-outgoing-4: Shutdown connection
+2016-03-10 11:47:35 DEBUG MainClientExec:126 - Connection discarded
+2016-03-10 11:47:35 DEBUG DefaultManagedHttpClientConnection:79 - http-outgoing-4: Close connection
+2016-03-10 11:47:35 DEBUG PoolingHttpClientConnectionManager:286 - Connection released: [id: 4][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2016-03-10 11:47:35 DEBUG RequestAddCookies:122 - CookieSpec selected: best-match
+2016-03-10 11:47:35 DEBUG RequestAuthCache:75 - Auth cache not set in the context
+2016-03-10 11:47:35 DEBUG PoolingHttpClientConnectionManager:219 - Connection request: [route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2016-03-10 11:47:35 DEBUG PoolingHttpClientConnectionManager:250 - Connection leased: [id: 5][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2016-03-10 11:47:35 DEBUG MainClientExec:217 - Opening connection {}->http://127.0.0.1:7055
+2016-03-10 11:47:35 DEBUG HttpClientConnectionOperator:120 - Connecting to /127.0.0.1:7055
+2016-03-10 11:47:35 DEBUG HttpClientConnectionOperator:127 - Connection established 127.0.0.1:55999<->127.0.0.1:7055
+2016-03-10 11:47:35 DEBUG MainClientExec:238 - Executing request POST /hub/session/6b21c2de-c913-4899-b228-c19dd7e5bfda/element/%7B01d16ce6-76da-47ee-9491-0841a758e29a%7D/click HTTP/1.1
+2016-03-10 11:47:35 DEBUG MainClientExec:243 - Target auth state: UNCHALLENGED
+2016-03-10 11:47:35 DEBUG MainClientExec:249 - Proxy auth state: UNCHALLENGED
+2016-03-10 11:47:35 DEBUG headers:124 - http-outgoing-5 >> POST /hub/session/6b21c2de-c913-4899-b228-c19dd7e5bfda/element/%7B01d16ce6-76da-47ee-9491-0841a758e29a%7D/click HTTP/1.1
+2016-03-10 11:47:35 DEBUG headers:127 - http-outgoing-5 >> Content-Type: application/json; charset=utf-8
+2016-03-10 11:47:35 DEBUG headers:127 - http-outgoing-5 >> Content-Length: 47
+2016-03-10 11:47:35 DEBUG headers:127 - http-outgoing-5 >> Host: 127.0.0.1:7055
+2016-03-10 11:47:35 DEBUG headers:127 - http-outgoing-5 >> Connection: Keep-Alive
+2016-03-10 11:47:35 DEBUG headers:127 - http-outgoing-5 >> User-Agent: Apache-HttpClient/4.3.4 (java 1.5)
+2016-03-10 11:47:35 DEBUG headers:127 - http-outgoing-5 >> Accept-Encoding: gzip,deflate
+2016-03-10 11:47:35 DEBUG wire:72 - http-outgoing-5 >> "POST /hub/session/6b21c2de-c913-4899-b228-c19dd7e5bfda/element/%7B01d16ce6-76da-47ee-9491-0841a758e29a%7D/click HTTP/1.1[\r][\n]"
+2016-03-10 11:47:35 DEBUG wire:72 - http-outgoing-5 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2016-03-10 11:47:35 DEBUG wire:72 - http-outgoing-5 >> "Content-Length: 47[\r][\n]"
+2016-03-10 11:47:35 DEBUG wire:72 - http-outgoing-5 >> "Host: 127.0.0.1:7055[\r][\n]"
+2016-03-10 11:47:35 DEBUG wire:72 - http-outgoing-5 >> "Connection: Keep-Alive[\r][\n]"
+2016-03-10 11:47:35 DEBUG wire:72 - http-outgoing-5 >> "User-Agent: Apache-HttpClient/4.3.4 (java 1.5)[\r][\n]"
+2016-03-10 11:47:35 DEBUG wire:72 - http-outgoing-5 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2016-03-10 11:47:35 DEBUG wire:72 - http-outgoing-5 >> "[\r][\n]"
+2016-03-10 11:47:35 DEBUG wire:86 - http-outgoing-5 >> "{"id":"{01d16ce6-76da-47ee-9491-0841a758e29a}"}"
+2016-03-10 11:47:36 DEBUG wire:72 - http-outgoing-5 << "HTTP/1.1 200 OK[\r][\n]"
+2016-03-10 11:47:36 DEBUG wire:72 - http-outgoing-5 << "content-type: application/json; charset=UTF-8[\r][\n]"
+2016-03-10 11:47:36 DEBUG wire:72 - http-outgoing-5 << "connection: close[\r][\n]"
+2016-03-10 11:47:36 DEBUG wire:72 - http-outgoing-5 << "content-length: 98[\r][\n]"
+2016-03-10 11:47:36 DEBUG wire:72 - http-outgoing-5 << "server: httpd.js[\r][\n]"
+2016-03-10 11:47:36 DEBUG wire:72 - http-outgoing-5 << "date: Thu, 10 Mar 2016 06:17:36 GMT[\r][\n]"
+2016-03-10 11:47:36 DEBUG wire:72 - http-outgoing-5 << "[\r][\n]"
+2016-03-10 11:47:36 DEBUG headers:113 - http-outgoing-5 << HTTP/1.1 200 OK
+2016-03-10 11:47:36 DEBUG headers:116 - http-outgoing-5 << content-type: application/json; charset=UTF-8
+2016-03-10 11:47:36 DEBUG headers:116 - http-outgoing-5 << connection: close
+2016-03-10 11:47:36 DEBUG headers:116 - http-outgoing-5 << content-length: 98
+2016-03-10 11:47:36 DEBUG headers:116 - http-outgoing-5 << server: httpd.js
+2016-03-10 11:47:36 DEBUG headers:116 - http-outgoing-5 << date: Thu, 10 Mar 2016 06:17:36 GMT
+2016-03-10 11:47:36 DEBUG wire:86 - http-outgoing-5 << "{"name":"clickElement","sessionId":"6b21c2de-c913-4899-b228-c19dd7e5bfda","status":0,"value":"ok"}"
+2016-03-10 11:47:36 DEBUG DefaultManagedHttpClientConnection:87 - http-outgoing-5: Shutdown connection
+2016-03-10 11:47:36 DEBUG MainClientExec:126 - Connection discarded
+2016-03-10 11:47:36 DEBUG DefaultManagedHttpClientConnection:79 - http-outgoing-5: Close connection
+2016-03-10 11:47:36 DEBUG PoolingHttpClientConnectionManager:286 - Connection released: [id: 5][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2016-03-10 11:47:36 DEBUG Log4JPropertiesTest:198 - ***Result of execution -- Pass
+2016-03-10 11:47:36 DEBUG Log4JPropertiesTest:168 - Executing verifyText
+2016-03-10 11:47:36 DEBUG RequestAddCookies:122 - CookieSpec selected: best-match
+2016-03-10 11:47:36 DEBUG RequestAuthCache:75 - Auth cache not set in the context
+2016-03-10 11:47:36 DEBUG PoolingHttpClientConnectionManager:219 - Connection request: [route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2016-03-10 11:47:36 DEBUG PoolingHttpClientConnectionManager:250 - Connection leased: [id: 6][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2016-03-10 11:47:36 DEBUG MainClientExec:217 - Opening connection {}->http://127.0.0.1:7055
+2016-03-10 11:47:36 DEBUG HttpClientConnectionOperator:120 - Connecting to /127.0.0.1:7055
+2016-03-10 11:47:36 DEBUG HttpClientConnectionOperator:127 - Connection established 127.0.0.1:56000<->127.0.0.1:7055
+2016-03-10 11:47:36 DEBUG MainClientExec:238 - Executing request POST /hub/session/6b21c2de-c913-4899-b228-c19dd7e5bfda/element HTTP/1.1
+2016-03-10 11:47:36 DEBUG MainClientExec:243 - Target auth state: UNCHALLENGED
+2016-03-10 11:47:36 DEBUG MainClientExec:249 - Proxy auth state: UNCHALLENGED
+2016-03-10 11:47:36 DEBUG headers:124 - http-outgoing-6 >> POST /hub/session/6b21c2de-c913-4899-b228-c19dd7e5bfda/element HTTP/1.1
+2016-03-10 11:47:36 DEBUG headers:127 - http-outgoing-6 >> Content-Type: application/json; charset=utf-8
+2016-03-10 11:47:36 DEBUG headers:127 - http-outgoing-6 >> Content-Length: 130
+2016-03-10 11:47:36 DEBUG headers:127 - http-outgoing-6 >> Host: 127.0.0.1:7055
+2016-03-10 11:47:36 DEBUG headers:127 - http-outgoing-6 >> Connection: Keep-Alive
+2016-03-10 11:47:36 DEBUG headers:127 - http-outgoing-6 >> User-Agent: Apache-HttpClient/4.3.4 (java 1.5)
+2016-03-10 11:47:36 DEBUG headers:127 - http-outgoing-6 >> Accept-Encoding: gzip,deflate
+2016-03-10 11:47:36 DEBUG wire:72 - http-outgoing-6 >> "POST /hub/session/6b21c2de-c913-4899-b228-c19dd7e5bfda/element HTTP/1.1[\r][\n]"
+2016-03-10 11:47:36 DEBUG wire:72 - http-outgoing-6 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2016-03-10 11:47:36 DEBUG wire:72 - http-outgoing-6 >> "Content-Length: 130[\r][\n]"
+2016-03-10 11:47:36 DEBUG wire:72 - http-outgoing-6 >> "Host: 127.0.0.1:7055[\r][\n]"
+2016-03-10 11:47:36 DEBUG wire:72 - http-outgoing-6 >> "Connection: Keep-Alive[\r][\n]"
+2016-03-10 11:47:36 DEBUG wire:72 - http-outgoing-6 >> "User-Agent: Apache-HttpClient/4.3.4 (java 1.5)[\r][\n]"
+2016-03-10 11:47:36 DEBUG wire:72 - http-outgoing-6 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2016-03-10 11:47:36 DEBUG wire:72 - http-outgoing-6 >> "[\r][\n]"
+2016-03-10 11:47:36 DEBUG wire:86 - http-outgoing-6 >> "{"using":"xpath","value":"html/body/div[1]/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr/td[2]/table/tbody/tr[3]/td/p"}"
+2016-03-10 11:47:36 DEBUG wire:72 - http-outgoing-6 << "HTTP/1.1 200 OK[\r][\n]"
+2016-03-10 11:47:36 DEBUG wire:72 - http-outgoing-6 << "content-type: application/json; charset=UTF-8[\r][\n]"
+2016-03-10 11:47:36 DEBUG wire:72 - http-outgoing-6 << "connection: close[\r][\n]"
+2016-03-10 11:47:36 DEBUG wire:72 - http-outgoing-6 << "content-length: 145[\r][\n]"
+2016-03-10 11:47:36 DEBUG wire:72 - http-outgoing-6 << "server: httpd.js[\r][\n]"
+2016-03-10 11:47:36 DEBUG wire:72 - http-outgoing-6 << "date: Thu, 10 Mar 2016 06:17:36 GMT[\r][\n]"
+2016-03-10 11:47:36 DEBUG wire:72 - http-outgoing-6 << "[\r][\n]"
+2016-03-10 11:47:36 DEBUG headers:113 - http-outgoing-6 << HTTP/1.1 200 OK
+2016-03-10 11:47:36 DEBUG headers:116 - http-outgoing-6 << content-type: application/json; charset=UTF-8
+2016-03-10 11:47:36 DEBUG headers:116 - http-outgoing-6 << connection: close
+2016-03-10 11:47:36 DEBUG headers:116 - http-outgoing-6 << content-length: 145
+2016-03-10 11:47:36 DEBUG headers:116 - http-outgoing-6 << server: httpd.js
+2016-03-10 11:47:36 DEBUG headers:116 - http-outgoing-6 << date: Thu, 10 Mar 2016 06:17:36 GMT
+2016-03-10 11:47:36 DEBUG wire:86 - http-outgoing-6 << "{"name":"findElement","sessionId":"6b21c2de-c913-4899-b228-c19dd7e5bfda","status":0,"value":{"ELEMENT":"{bb7123ac-291b-4825-8078-280961319d8d}"}}"
+2016-03-10 11:47:36 DEBUG DefaultManagedHttpClientConnection:87 - http-outgoing-6: Shutdown connection
+2016-03-10 11:47:36 DEBUG MainClientExec:126 - Connection discarded
+2016-03-10 11:47:36 DEBUG DefaultManagedHttpClientConnection:79 - http-outgoing-6: Close connection
+2016-03-10 11:47:36 DEBUG PoolingHttpClientConnectionManager:286 - Connection released: [id: 6][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2016-03-10 11:47:36 DEBUG RequestAddCookies:122 - CookieSpec selected: best-match
+2016-03-10 11:47:36 DEBUG RequestAuthCache:75 - Auth cache not set in the context
+2016-03-10 11:47:36 DEBUG PoolingHttpClientConnectionManager:219 - Connection request: [route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2016-03-10 11:47:36 DEBUG PoolingHttpClientConnectionManager:250 - Connection leased: [id: 7][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2016-03-10 11:47:36 DEBUG MainClientExec:217 - Opening connection {}->http://127.0.0.1:7055
+2016-03-10 11:47:36 DEBUG HttpClientConnectionOperator:120 - Connecting to /127.0.0.1:7055
+2016-03-10 11:47:36 DEBUG HttpClientConnectionOperator:127 - Connection established 127.0.0.1:56001<->127.0.0.1:7055
+2016-03-10 11:47:36 DEBUG MainClientExec:238 - Executing request GET /hub/session/6b21c2de-c913-4899-b228-c19dd7e5bfda/element/%7Bbb7123ac-291b-4825-8078-280961319d8d%7D/text HTTP/1.1
+2016-03-10 11:47:36 DEBUG MainClientExec:243 - Target auth state: UNCHALLENGED
+2016-03-10 11:47:36 DEBUG MainClientExec:249 - Proxy auth state: UNCHALLENGED
+2016-03-10 11:47:36 DEBUG headers:124 - http-outgoing-7 >> GET /hub/session/6b21c2de-c913-4899-b228-c19dd7e5bfda/element/%7Bbb7123ac-291b-4825-8078-280961319d8d%7D/text HTTP/1.1
+2016-03-10 11:47:36 DEBUG headers:127 - http-outgoing-7 >> Cache-Control: no-cache
+2016-03-10 11:47:36 DEBUG headers:127 - http-outgoing-7 >> Host: 127.0.0.1:7055
+2016-03-10 11:47:36 DEBUG headers:127 - http-outgoing-7 >> Connection: Keep-Alive
+2016-03-10 11:47:36 DEBUG headers:127 - http-outgoing-7 >> User-Agent: Apache-HttpClient/4.3.4 (java 1.5)
+2016-03-10 11:47:36 DEBUG headers:127 - http-outgoing-7 >> Accept-Encoding: gzip,deflate
+2016-03-10 11:47:36 DEBUG wire:72 - http-outgoing-7 >> "GET /hub/session/6b21c2de-c913-4899-b228-c19dd7e5bfda/element/%7Bbb7123ac-291b-4825-8078-280961319d8d%7D/text HTTP/1.1[\r][\n]"
+2016-03-10 11:47:36 DEBUG wire:72 - http-outgoing-7 >> "Cache-Control: no-cache[\r][\n]"
+2016-03-10 11:47:36 DEBUG wire:72 - http-outgoing-7 >> "Host: 127.0.0.1:7055[\r][\n]"
+2016-03-10 11:47:36 DEBUG wire:72 - http-outgoing-7 >> "Connection: Keep-Alive[\r][\n]"
+2016-03-10 11:47:36 DEBUG wire:72 - http-outgoing-7 >> "User-Agent: Apache-HttpClient/4.3.4 (java 1.5)[\r][\n]"
+2016-03-10 11:47:36 DEBUG wire:72 - http-outgoing-7 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2016-03-10 11:47:36 DEBUG wire:72 - http-outgoing-7 >> "[\r][\n]"
+2016-03-10 11:47:36 DEBUG wire:72 - http-outgoing-7 << "HTTP/1.1 200 OK[\r][\n]"
+2016-03-10 11:47:36 DEBUG wire:72 - http-outgoing-7 << "content-type: application/json; charset=UTF-8[\r][\n]"
+2016-03-10 11:47:36 DEBUG wire:72 - http-outgoing-7 << "connection: close[\r][\n]"
+2016-03-10 11:47:36 DEBUG wire:72 - http-outgoing-7 << "content-length: 269[\r][\n]"
+2016-03-10 11:47:36 DEBUG wire:72 - http-outgoing-7 << "server: httpd.js[\r][\n]"
+2016-03-10 11:47:36 DEBUG wire:72 - http-outgoing-7 << "date: Thu, 10 Mar 2016 06:17:36 GMT[\r][\n]"
+2016-03-10 11:47:36 DEBUG wire:72 - http-outgoing-7 << "[\r][\n]"
+2016-03-10 11:47:36 DEBUG headers:113 - http-outgoing-7 << HTTP/1.1 200 OK
+2016-03-10 11:47:36 DEBUG headers:116 - http-outgoing-7 << content-type: application/json; charset=UTF-8
+2016-03-10 11:47:36 DEBUG headers:116 - http-outgoing-7 << connection: close
+2016-03-10 11:47:36 DEBUG headers:116 - http-outgoing-7 << content-length: 269
+2016-03-10 11:47:36 DEBUG headers:116 - http-outgoing-7 << server: httpd.js
+2016-03-10 11:47:36 DEBUG headers:116 - http-outgoing-7 << date: Thu, 10 Mar 2016 06:17:36 GMT
+2016-03-10 11:47:36 DEBUG wire:86 - http-outgoing-7 << "{"name":"getElementText","sessionId":"6b21c2de-c913-4899-b228-c19dd7e5bfda","status":0,"value":"Welcome back to Mercury Tours! Enter your user information to access the member-only areas of this site. If you don't have a log-in, please fill out the registration form."}"
+2016-03-10 11:47:36 DEBUG DefaultManagedHttpClientConnection:87 - http-outgoing-7: Shutdown connection
+2016-03-10 11:47:36 DEBUG MainClientExec:126 - Connection discarded
+2016-03-10 11:47:36 DEBUG DefaultManagedHttpClientConnection:79 - http-outgoing-7: Close connection
+2016-03-10 11:47:36 DEBUG PoolingHttpClientConnectionManager:286 - Connection released: [id: 7][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2016-03-10 11:47:36 DEBUG Log4JPropertiesTest:172 - Welcome back to Mercury Tours! Enter your user information to access the member-only areas of this site. If you don't have a log-in, please fill out the registration form.
+2016-03-10 11:47:36 DEBUG Log4JPropertiesTest:173 - Welcome back to Mercury Tours! Enter your user information to access the member-only areas of this site. If you don't have a log-in, please fill out the registration form.
+2016-03-10 11:47:36 DEBUG Log4JPropertiesTest:198 - ***Result of execution -- Pass
+2016-03-10 11:47:36 DEBUG Log4JPropertiesTest:248 - ######################CheckSignON --- Pass
+2016-03-10 11:47:36 DEBUG Log4JPropertiesTest:185 - Executing the test CheckRegister
+2016-03-10 11:47:36 DEBUG Log4JPropertiesTest:69 - Executing Navigate
+2016-03-10 11:47:36 DEBUG RequestAddCookies:122 - CookieSpec selected: best-match
+2016-03-10 11:47:36 DEBUG RequestAuthCache:75 - Auth cache not set in the context
+2016-03-10 11:47:36 DEBUG PoolingHttpClientConnectionManager:219 - Connection request: [route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2016-03-10 11:47:36 DEBUG PoolingHttpClientConnectionManager:250 - Connection leased: [id: 8][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2016-03-10 11:47:36 DEBUG MainClientExec:217 - Opening connection {}->http://127.0.0.1:7055
+2016-03-10 11:47:36 DEBUG HttpClientConnectionOperator:120 - Connecting to /127.0.0.1:7055
+2016-03-10 11:47:36 DEBUG HttpClientConnectionOperator:127 - Connection established 127.0.0.1:56002<->127.0.0.1:7055
+2016-03-10 11:47:36 DEBUG MainClientExec:238 - Executing request POST /hub/session/6b21c2de-c913-4899-b228-c19dd7e5bfda/url HTTP/1.1
+2016-03-10 11:47:36 DEBUG MainClientExec:243 - Target auth state: UNCHALLENGED
+2016-03-10 11:47:36 DEBUG MainClientExec:249 - Proxy auth state: UNCHALLENGED
+2016-03-10 11:47:36 DEBUG headers:124 - http-outgoing-8 >> POST /hub/session/6b21c2de-c913-4899-b228-c19dd7e5bfda/url HTTP/1.1
+2016-03-10 11:47:36 DEBUG headers:127 - http-outgoing-8 >> Content-Type: application/json; charset=utf-8
+2016-03-10 11:47:36 DEBUG headers:127 - http-outgoing-8 >> Content-Length: 38
+2016-03-10 11:47:36 DEBUG headers:127 - http-outgoing-8 >> Host: 127.0.0.1:7055
+2016-03-10 11:47:36 DEBUG headers:127 - http-outgoing-8 >> Connection: Keep-Alive
+2016-03-10 11:47:36 DEBUG headers:127 - http-outgoing-8 >> User-Agent: Apache-HttpClient/4.3.4 (java 1.5)
+2016-03-10 11:47:36 DEBUG headers:127 - http-outgoing-8 >> Accept-Encoding: gzip,deflate
+2016-03-10 11:47:36 DEBUG wire:72 - http-outgoing-8 >> "POST /hub/session/6b21c2de-c913-4899-b228-c19dd7e5bfda/url HTTP/1.1[\r][\n]"
+2016-03-10 11:47:36 DEBUG wire:72 - http-outgoing-8 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2016-03-10 11:47:36 DEBUG wire:72 - http-outgoing-8 >> "Content-Length: 38[\r][\n]"
+2016-03-10 11:47:36 DEBUG wire:72 - http-outgoing-8 >> "Host: 127.0.0.1:7055[\r][\n]"
+2016-03-10 11:47:36 DEBUG wire:72 - http-outgoing-8 >> "Connection: Keep-Alive[\r][\n]"
+2016-03-10 11:47:36 DEBUG wire:72 - http-outgoing-8 >> "User-Agent: Apache-HttpClient/4.3.4 (java 1.5)[\r][\n]"
+2016-03-10 11:47:36 DEBUG wire:72 - http-outgoing-8 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2016-03-10 11:47:36 DEBUG wire:72 - http-outgoing-8 >> "[\r][\n]"
+2016-03-10 11:47:36 DEBUG wire:86 - http-outgoing-8 >> "{"url":"http://newtours.demoaut.com/"}"
+2016-03-10 11:47:38 DEBUG wire:72 - http-outgoing-8 << "HTTP/1.1 200 OK[\r][\n]"
+2016-03-10 11:47:38 DEBUG wire:72 - http-outgoing-8 << "content-type: application/json; charset=UTF-8[\r][\n]"
+2016-03-10 11:47:38 DEBUG wire:72 - http-outgoing-8 << "connection: close[\r][\n]"
+2016-03-10 11:47:38 DEBUG wire:72 - http-outgoing-8 << "content-length: 87[\r][\n]"
+2016-03-10 11:47:38 DEBUG wire:72 - http-outgoing-8 << "server: httpd.js[\r][\n]"
+2016-03-10 11:47:38 DEBUG wire:72 - http-outgoing-8 << "date: Thu, 10 Mar 2016 06:17:38 GMT[\r][\n]"
+2016-03-10 11:47:38 DEBUG wire:72 - http-outgoing-8 << "[\r][\n]"
+2016-03-10 11:47:38 DEBUG headers:113 - http-outgoing-8 << HTTP/1.1 200 OK
+2016-03-10 11:47:38 DEBUG headers:116 - http-outgoing-8 << content-type: application/json; charset=UTF-8
+2016-03-10 11:47:38 DEBUG headers:116 - http-outgoing-8 << connection: close
+2016-03-10 11:47:38 DEBUG headers:116 - http-outgoing-8 << content-length: 87
+2016-03-10 11:47:38 DEBUG headers:116 - http-outgoing-8 << server: httpd.js
+2016-03-10 11:47:38 DEBUG headers:116 - http-outgoing-8 << date: Thu, 10 Mar 2016 06:17:38 GMT
+2016-03-10 11:47:38 DEBUG wire:86 - http-outgoing-8 << "{"name":"get","sessionId":"6b21c2de-c913-4899-b228-c19dd7e5bfda","status":0,"value":""}"
+2016-03-10 11:47:38 DEBUG DefaultManagedHttpClientConnection:87 - http-outgoing-8: Shutdown connection
+2016-03-10 11:47:38 DEBUG MainClientExec:126 - Connection discarded
+2016-03-10 11:47:38 DEBUG DefaultManagedHttpClientConnection:79 - http-outgoing-8: Close connection
+2016-03-10 11:47:38 DEBUG PoolingHttpClientConnectionManager:286 - Connection released: [id: 8][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2016-03-10 11:47:38 DEBUG Log4JPropertiesTest:198 - ***Result of execution -- Pass
+2016-03-10 11:47:38 DEBUG Log4JPropertiesTest:81 - Executing clickLink
+2016-03-10 11:47:38 DEBUG RequestAddCookies:122 - CookieSpec selected: best-match
+2016-03-10 11:47:38 DEBUG RequestAuthCache:75 - Auth cache not set in the context
+2016-03-10 11:47:38 DEBUG PoolingHttpClientConnectionManager:219 - Connection request: [route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2016-03-10 11:47:38 DEBUG PoolingHttpClientConnectionManager:250 - Connection leased: [id: 9][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2016-03-10 11:47:38 DEBUG MainClientExec:217 - Opening connection {}->http://127.0.0.1:7055
+2016-03-10 11:47:38 DEBUG HttpClientConnectionOperator:120 - Connecting to /127.0.0.1:7055
+2016-03-10 11:47:38 DEBUG HttpClientConnectionOperator:127 - Connection established 127.0.0.1:56003<->127.0.0.1:7055
+2016-03-10 11:47:38 DEBUG MainClientExec:238 - Executing request POST /hub/session/6b21c2de-c913-4899-b228-c19dd7e5bfda/element HTTP/1.1
+2016-03-10 11:47:38 DEBUG MainClientExec:243 - Target auth state: UNCHALLENGED
+2016-03-10 11:47:38 DEBUG MainClientExec:249 - Proxy auth state: UNCHALLENGED
+2016-03-10 11:47:38 DEBUG headers:124 - http-outgoing-9 >> POST /hub/session/6b21c2de-c913-4899-b228-c19dd7e5bfda/element HTTP/1.1
+2016-03-10 11:47:38 DEBUG headers:127 - http-outgoing-9 >> Content-Type: application/json; charset=utf-8
+2016-03-10 11:47:38 DEBUG headers:127 - http-outgoing-9 >> Content-Length: 109
+2016-03-10 11:47:38 DEBUG headers:127 - http-outgoing-9 >> Host: 127.0.0.1:7055
+2016-03-10 11:47:38 DEBUG headers:127 - http-outgoing-9 >> Connection: Keep-Alive
+2016-03-10 11:47:38 DEBUG headers:127 - http-outgoing-9 >> User-Agent: Apache-HttpClient/4.3.4 (java 1.5)
+2016-03-10 11:47:38 DEBUG headers:127 - http-outgoing-9 >> Accept-Encoding: gzip,deflate
+2016-03-10 11:47:38 DEBUG wire:72 - http-outgoing-9 >> "POST /hub/session/6b21c2de-c913-4899-b228-c19dd7e5bfda/element HTTP/1.1[\r][\n]"
+2016-03-10 11:47:38 DEBUG wire:72 - http-outgoing-9 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2016-03-10 11:47:38 DEBUG wire:72 - http-outgoing-9 >> "Content-Length: 109[\r][\n]"
+2016-03-10 11:47:38 DEBUG wire:72 - http-outgoing-9 >> "Host: 127.0.0.1:7055[\r][\n]"
+2016-03-10 11:47:38 DEBUG wire:72 - http-outgoing-9 >> "Connection: Keep-Alive[\r][\n]"
+2016-03-10 11:47:38 DEBUG wire:72 - http-outgoing-9 >> "User-Agent: Apache-HttpClient/4.3.4 (java 1.5)[\r][\n]"
+2016-03-10 11:47:38 DEBUG wire:72 - http-outgoing-9 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2016-03-10 11:47:38 DEBUG wire:72 - http-outgoing-9 >> "[\r][\n]"
+2016-03-10 11:47:38 DEBUG wire:86 - http-outgoing-9 >> "{"using":"xpath","value":"html/body/div[1]/table/tbody/tr/td[2]/table/tbody/tr[2]/td/table/tbody/tr/td[2]/a"}"
+2016-03-10 11:47:38 DEBUG wire:72 - http-outgoing-9 << "HTTP/1.1 200 OK[\r][\n]"
+2016-03-10 11:47:38 DEBUG wire:72 - http-outgoing-9 << "content-type: application/json; charset=UTF-8[\r][\n]"
+2016-03-10 11:47:38 DEBUG wire:72 - http-outgoing-9 << "connection: close[\r][\n]"
+2016-03-10 11:47:38 DEBUG wire:72 - http-outgoing-9 << "content-length: 145[\r][\n]"
+2016-03-10 11:47:38 DEBUG wire:72 - http-outgoing-9 << "server: httpd.js[\r][\n]"
+2016-03-10 11:47:38 DEBUG wire:72 - http-outgoing-9 << "date: Thu, 10 Mar 2016 06:17:38 GMT[\r][\n]"
+2016-03-10 11:47:38 DEBUG wire:72 - http-outgoing-9 << "[\r][\n]"
+2016-03-10 11:47:38 DEBUG headers:113 - http-outgoing-9 << HTTP/1.1 200 OK
+2016-03-10 11:47:38 DEBUG headers:116 - http-outgoing-9 << content-type: application/json; charset=UTF-8
+2016-03-10 11:47:38 DEBUG headers:116 - http-outgoing-9 << connection: close
+2016-03-10 11:47:38 DEBUG headers:116 - http-outgoing-9 << content-length: 145
+2016-03-10 11:47:38 DEBUG headers:116 - http-outgoing-9 << server: httpd.js
+2016-03-10 11:47:38 DEBUG headers:116 - http-outgoing-9 << date: Thu, 10 Mar 2016 06:17:38 GMT
+2016-03-10 11:47:38 DEBUG wire:86 - http-outgoing-9 << "{"name":"findElement","sessionId":"6b21c2de-c913-4899-b228-c19dd7e5bfda","status":0,"value":{"ELEMENT":"{4ed30beb-6c87-4fbb-bfe0-144e99b40a9f}"}}"
+2016-03-10 11:47:38 DEBUG DefaultManagedHttpClientConnection:87 - http-outgoing-9: Shutdown connection
+2016-03-10 11:47:38 DEBUG MainClientExec:126 - Connection discarded
+2016-03-10 11:47:38 DEBUG DefaultManagedHttpClientConnection:79 - http-outgoing-9: Close connection
+2016-03-10 11:47:38 DEBUG PoolingHttpClientConnectionManager:286 - Connection released: [id: 9][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2016-03-10 11:47:38 DEBUG RequestAddCookies:122 - CookieSpec selected: best-match
+2016-03-10 11:47:38 DEBUG RequestAuthCache:75 - Auth cache not set in the context
+2016-03-10 11:47:38 DEBUG PoolingHttpClientConnectionManager:219 - Connection request: [route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2016-03-10 11:47:38 DEBUG PoolingHttpClientConnectionManager:250 - Connection leased: [id: 10][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2016-03-10 11:47:38 DEBUG MainClientExec:217 - Opening connection {}->http://127.0.0.1:7055
+2016-03-10 11:47:38 DEBUG HttpClientConnectionOperator:120 - Connecting to /127.0.0.1:7055
+2016-03-10 11:47:38 DEBUG HttpClientConnectionOperator:127 - Connection established 127.0.0.1:56004<->127.0.0.1:7055
+2016-03-10 11:47:38 DEBUG MainClientExec:238 - Executing request POST /hub/session/6b21c2de-c913-4899-b228-c19dd7e5bfda/element/%7B4ed30beb-6c87-4fbb-bfe0-144e99b40a9f%7D/click HTTP/1.1
+2016-03-10 11:47:38 DEBUG MainClientExec:243 - Target auth state: UNCHALLENGED
+2016-03-10 11:47:38 DEBUG MainClientExec:249 - Proxy auth state: UNCHALLENGED
+2016-03-10 11:47:38 DEBUG headers:124 - http-outgoing-10 >> POST /hub/session/6b21c2de-c913-4899-b228-c19dd7e5bfda/element/%7B4ed30beb-6c87-4fbb-bfe0-144e99b40a9f%7D/click HTTP/1.1
+2016-03-10 11:47:38 DEBUG headers:127 - http-outgoing-10 >> Content-Type: application/json; charset=utf-8
+2016-03-10 11:47:38 DEBUG headers:127 - http-outgoing-10 >> Content-Length: 47
+2016-03-10 11:47:38 DEBUG headers:127 - http-outgoing-10 >> Host: 127.0.0.1:7055
+2016-03-10 11:47:38 DEBUG headers:127 - http-outgoing-10 >> Connection: Keep-Alive
+2016-03-10 11:47:38 DEBUG headers:127 - http-outgoing-10 >> User-Agent: Apache-HttpClient/4.3.4 (java 1.5)
+2016-03-10 11:47:38 DEBUG headers:127 - http-outgoing-10 >> Accept-Encoding: gzip,deflate
+2016-03-10 11:47:38 DEBUG wire:72 - http-outgoing-10 >> "POST /hub/session/6b21c2de-c913-4899-b228-c19dd7e5bfda/element/%7B4ed30beb-6c87-4fbb-bfe0-144e99b40a9f%7D/click HTTP/1.1[\r][\n]"
+2016-03-10 11:47:38 DEBUG wire:72 - http-outgoing-10 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2016-03-10 11:47:38 DEBUG wire:72 - http-outgoing-10 >> "Content-Length: 47[\r][\n]"
+2016-03-10 11:47:38 DEBUG wire:72 - http-outgoing-10 >> "Host: 127.0.0.1:7055[\r][\n]"
+2016-03-10 11:47:38 DEBUG wire:72 - http-outgoing-10 >> "Connection: Keep-Alive[\r][\n]"
+2016-03-10 11:47:38 DEBUG wire:72 - http-outgoing-10 >> "User-Agent: Apache-HttpClient/4.3.4 (java 1.5)[\r][\n]"
+2016-03-10 11:47:38 DEBUG wire:72 - http-outgoing-10 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2016-03-10 11:47:38 DEBUG wire:72 - http-outgoing-10 >> "[\r][\n]"
+2016-03-10 11:47:38 DEBUG wire:86 - http-outgoing-10 >> "{"id":"{4ed30beb-6c87-4fbb-bfe0-144e99b40a9f}"}"
+2016-03-10 11:47:39 DEBUG wire:72 - http-outgoing-10 << "HTTP/1.1 200 OK[\r][\n]"
+2016-03-10 11:47:39 DEBUG wire:72 - http-outgoing-10 << "content-type: application/json; charset=UTF-8[\r][\n]"
+2016-03-10 11:47:39 DEBUG wire:72 - http-outgoing-10 << "connection: close[\r][\n]"
+2016-03-10 11:47:39 DEBUG wire:72 - http-outgoing-10 << "content-length: 98[\r][\n]"
+2016-03-10 11:47:39 DEBUG wire:72 - http-outgoing-10 << "server: httpd.js[\r][\n]"
+2016-03-10 11:47:39 DEBUG wire:72 - http-outgoing-10 << "date: Thu, 10 Mar 2016 06:17:39 GMT[\r][\n]"
+2016-03-10 11:47:39 DEBUG wire:72 - http-outgoing-10 << "[\r][\n]"
+2016-03-10 11:47:39 DEBUG headers:113 - http-outgoing-10 << HTTP/1.1 200 OK
+2016-03-10 11:47:39 DEBUG headers:116 - http-outgoing-10 << content-type: application/json; charset=UTF-8
+2016-03-10 11:47:39 DEBUG headers:116 - http-outgoing-10 << connection: close
+2016-03-10 11:47:39 DEBUG headers:116 - http-outgoing-10 << content-length: 98
+2016-03-10 11:47:39 DEBUG headers:116 - http-outgoing-10 << server: httpd.js
+2016-03-10 11:47:39 DEBUG headers:116 - http-outgoing-10 << date: Thu, 10 Mar 2016 06:17:39 GMT
+2016-03-10 11:47:39 DEBUG wire:86 - http-outgoing-10 << "{"name":"clickElement","sessionId":"6b21c2de-c913-4899-b228-c19dd7e5bfda","status":0,"value":"ok"}"
+2016-03-10 11:47:39 DEBUG DefaultManagedHttpClientConnection:87 - http-outgoing-10: Shutdown connection
+2016-03-10 11:47:39 DEBUG MainClientExec:126 - Connection discarded
+2016-03-10 11:47:39 DEBUG DefaultManagedHttpClientConnection:79 - http-outgoing-10: Close connection
+2016-03-10 11:47:39 DEBUG PoolingHttpClientConnectionManager:286 - Connection released: [id: 10][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2016-03-10 11:47:39 DEBUG Log4JPropertiesTest:198 - ***Result of execution -- Pass
+2016-03-10 11:47:39 DEBUG Log4JPropertiesTest:168 - Executing verifyText
+2016-03-10 11:47:39 DEBUG Log4JPropertiesTest:239 - Error came
+2016-03-10 11:47:39 DEBUG Log4JPropertiesTest:248 - ######################CheckRegister --- Pass
+2016-03-10 11:47:39 DEBUG Log4JPropertiesTest:185 - Executing the test SigninTest
+2016-03-10 11:47:39 DEBUG Log4JPropertiesTest:81 - Executing clickLink
+2016-03-10 11:47:39 DEBUG RequestAddCookies:122 - CookieSpec selected: best-match
+2016-03-10 11:47:39 DEBUG RequestAuthCache:75 - Auth cache not set in the context
+2016-03-10 11:47:39 DEBUG PoolingHttpClientConnectionManager:219 - Connection request: [route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2016-03-10 11:47:39 DEBUG PoolingHttpClientConnectionManager:250 - Connection leased: [id: 11][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2016-03-10 11:47:39 DEBUG MainClientExec:217 - Opening connection {}->http://127.0.0.1:7055
+2016-03-10 11:47:39 DEBUG HttpClientConnectionOperator:120 - Connecting to /127.0.0.1:7055
+2016-03-10 11:47:39 DEBUG HttpClientConnectionOperator:127 - Connection established 127.0.0.1:56005<->127.0.0.1:7055
+2016-03-10 11:47:39 DEBUG MainClientExec:238 - Executing request POST /hub/session/6b21c2de-c913-4899-b228-c19dd7e5bfda/element HTTP/1.1
+2016-03-10 11:47:39 DEBUG MainClientExec:243 - Target auth state: UNCHALLENGED
+2016-03-10 11:47:39 DEBUG MainClientExec:249 - Proxy auth state: UNCHALLENGED
+2016-03-10 11:47:39 DEBUG headers:124 - http-outgoing-11 >> POST /hub/session/6b21c2de-c913-4899-b228-c19dd7e5bfda/element HTTP/1.1
+2016-03-10 11:47:39 DEBUG headers:127 - http-outgoing-11 >> Content-Type: application/json; charset=utf-8
+2016-03-10 11:47:39 DEBUG headers:127 - http-outgoing-11 >> Content-Length: 109
+2016-03-10 11:47:39 DEBUG headers:127 - http-outgoing-11 >> Host: 127.0.0.1:7055
+2016-03-10 11:47:39 DEBUG headers:127 - http-outgoing-11 >> Connection: Keep-Alive
+2016-03-10 11:47:39 DEBUG headers:127 - http-outgoing-11 >> User-Agent: Apache-HttpClient/4.3.4 (java 1.5)
+2016-03-10 11:47:39 DEBUG headers:127 - http-outgoing-11 >> Accept-Encoding: gzip,deflate
+2016-03-10 11:47:39 DEBUG wire:72 - http-outgoing-11 >> "POST /hub/session/6b21c2de-c913-4899-b228-c19dd7e5bfda/element HTTP/1.1[\r][\n]"
+2016-03-10 11:47:39 DEBUG wire:72 - http-outgoing-11 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2016-03-10 11:47:39 DEBUG wire:72 - http-outgoing-11 >> "Content-Length: 109[\r][\n]"
+2016-03-10 11:47:39 DEBUG wire:72 - http-outgoing-11 >> "Host: 127.0.0.1:7055[\r][\n]"
+2016-03-10 11:47:39 DEBUG wire:72 - http-outgoing-11 >> "Connection: Keep-Alive[\r][\n]"
+2016-03-10 11:47:39 DEBUG wire:72 - http-outgoing-11 >> "User-Agent: Apache-HttpClient/4.3.4 (java 1.5)[\r][\n]"
+2016-03-10 11:47:39 DEBUG wire:72 - http-outgoing-11 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2016-03-10 11:47:39 DEBUG wire:72 - http-outgoing-11 >> "[\r][\n]"
+2016-03-10 11:47:39 DEBUG wire:86 - http-outgoing-11 >> "{"using":"xpath","value":"html/body/div[1]/table/tbody/tr/td[2]/table/tbody/tr[2]/td/table/tbody/tr/td[1]/a"}"
+2016-03-10 11:47:39 DEBUG wire:72 - http-outgoing-11 << "HTTP/1.1 200 OK[\r][\n]"
+2016-03-10 11:47:39 DEBUG wire:72 - http-outgoing-11 << "content-type: application/json; charset=UTF-8[\r][\n]"
+2016-03-10 11:47:39 DEBUG wire:72 - http-outgoing-11 << "connection: close[\r][\n]"
+2016-03-10 11:47:39 DEBUG wire:72 - http-outgoing-11 << "content-length: 145[\r][\n]"
+2016-03-10 11:47:39 DEBUG wire:72 - http-outgoing-11 << "server: httpd.js[\r][\n]"
+2016-03-10 11:47:39 DEBUG wire:72 - http-outgoing-11 << "date: Thu, 10 Mar 2016 06:17:39 GMT[\r][\n]"
+2016-03-10 11:47:39 DEBUG wire:72 - http-outgoing-11 << "[\r][\n]"
+2016-03-10 11:47:39 DEBUG headers:113 - http-outgoing-11 << HTTP/1.1 200 OK
+2016-03-10 11:47:39 DEBUG headers:116 - http-outgoing-11 << content-type: application/json; charset=UTF-8
+2016-03-10 11:47:39 DEBUG headers:116 - http-outgoing-11 << connection: close
+2016-03-10 11:47:39 DEBUG headers:116 - http-outgoing-11 << content-length: 145
+2016-03-10 11:47:39 DEBUG headers:116 - http-outgoing-11 << server: httpd.js
+2016-03-10 11:47:39 DEBUG headers:116 - http-outgoing-11 << date: Thu, 10 Mar 2016 06:17:39 GMT
+2016-03-10 11:47:39 DEBUG wire:86 - http-outgoing-11 << "{"name":"findElement","sessionId":"6b21c2de-c913-4899-b228-c19dd7e5bfda","status":0,"value":{"ELEMENT":"{f6de0908-60e7-4c1e-bb23-368ebae854aa}"}}"
+2016-03-10 11:47:39 DEBUG DefaultManagedHttpClientConnection:87 - http-outgoing-11: Shutdown connection
+2016-03-10 11:47:39 DEBUG MainClientExec:126 - Connection discarded
+2016-03-10 11:47:39 DEBUG DefaultManagedHttpClientConnection:79 - http-outgoing-11: Close connection
+2016-03-10 11:47:39 DEBUG PoolingHttpClientConnectionManager:286 - Connection released: [id: 11][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2016-03-10 11:47:39 DEBUG RequestAddCookies:122 - CookieSpec selected: best-match
+2016-03-10 11:47:39 DEBUG RequestAuthCache:75 - Auth cache not set in the context
+2016-03-10 11:47:39 DEBUG PoolingHttpClientConnectionManager:219 - Connection request: [route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2016-03-10 11:47:39 DEBUG PoolingHttpClientConnectionManager:250 - Connection leased: [id: 12][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2016-03-10 11:47:39 DEBUG MainClientExec:217 - Opening connection {}->http://127.0.0.1:7055
+2016-03-10 11:47:39 DEBUG HttpClientConnectionOperator:120 - Connecting to /127.0.0.1:7055
+2016-03-10 11:47:39 DEBUG HttpClientConnectionOperator:127 - Connection established 127.0.0.1:56006<->127.0.0.1:7055
+2016-03-10 11:47:39 DEBUG MainClientExec:238 - Executing request POST /hub/session/6b21c2de-c913-4899-b228-c19dd7e5bfda/element/%7Bf6de0908-60e7-4c1e-bb23-368ebae854aa%7D/click HTTP/1.1
+2016-03-10 11:47:39 DEBUG MainClientExec:243 - Target auth state: UNCHALLENGED
+2016-03-10 11:47:39 DEBUG MainClientExec:249 - Proxy auth state: UNCHALLENGED
+2016-03-10 11:47:39 DEBUG headers:124 - http-outgoing-12 >> POST /hub/session/6b21c2de-c913-4899-b228-c19dd7e5bfda/element/%7Bf6de0908-60e7-4c1e-bb23-368ebae854aa%7D/click HTTP/1.1
+2016-03-10 11:47:39 DEBUG headers:127 - http-outgoing-12 >> Content-Type: application/json; charset=utf-8
+2016-03-10 11:47:39 DEBUG headers:127 - http-outgoing-12 >> Content-Length: 47
+2016-03-10 11:47:39 DEBUG headers:127 - http-outgoing-12 >> Host: 127.0.0.1:7055
+2016-03-10 11:47:39 DEBUG headers:127 - http-outgoing-12 >> Connection: Keep-Alive
+2016-03-10 11:47:39 DEBUG headers:127 - http-outgoing-12 >> User-Agent: Apache-HttpClient/4.3.4 (java 1.5)
+2016-03-10 11:47:39 DEBUG headers:127 - http-outgoing-12 >> Accept-Encoding: gzip,deflate
+2016-03-10 11:47:39 DEBUG wire:72 - http-outgoing-12 >> "POST /hub/session/6b21c2de-c913-4899-b228-c19dd7e5bfda/element/%7Bf6de0908-60e7-4c1e-bb23-368ebae854aa%7D/click HTTP/1.1[\r][\n]"
+2016-03-10 11:47:39 DEBUG wire:72 - http-outgoing-12 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2016-03-10 11:47:39 DEBUG wire:72 - http-outgoing-12 >> "Content-Length: 47[\r][\n]"
+2016-03-10 11:47:39 DEBUG wire:72 - http-outgoing-12 >> "Host: 127.0.0.1:7055[\r][\n]"
+2016-03-10 11:47:39 DEBUG wire:72 - http-outgoing-12 >> "Connection: Keep-Alive[\r][\n]"
+2016-03-10 11:47:39 DEBUG wire:72 - http-outgoing-12 >> "User-Agent: Apache-HttpClient/4.3.4 (java 1.5)[\r][\n]"
+2016-03-10 11:47:39 DEBUG wire:72 - http-outgoing-12 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2016-03-10 11:47:39 DEBUG wire:72 - http-outgoing-12 >> "[\r][\n]"
+2016-03-10 11:47:39 DEBUG wire:86 - http-outgoing-12 >> "{"id":"{f6de0908-60e7-4c1e-bb23-368ebae854aa}"}"
+2016-03-10 11:47:41 DEBUG wire:72 - http-outgoing-12 << "HTTP/1.1 200 OK[\r][\n]"
+2016-03-10 11:47:41 DEBUG wire:72 - http-outgoing-12 << "content-type: application/json; charset=UTF-8[\r][\n]"
+2016-03-10 11:47:41 DEBUG wire:72 - http-outgoing-12 << "connection: close[\r][\n]"
+2016-03-10 11:47:41 DEBUG wire:72 - http-outgoing-12 << "content-length: 98[\r][\n]"
+2016-03-10 11:47:41 DEBUG wire:72 - http-outgoing-12 << "server: httpd.js[\r][\n]"
+2016-03-10 11:47:41 DEBUG wire:72 - http-outgoing-12 << "date: Thu, 10 Mar 2016 06:17:41 GMT[\r][\n]"
+2016-03-10 11:47:41 DEBUG wire:72 - http-outgoing-12 << "[\r][\n]"
+2016-03-10 11:47:41 DEBUG headers:113 - http-outgoing-12 << HTTP/1.1 200 OK
+2016-03-10 11:47:41 DEBUG headers:116 - http-outgoing-12 << content-type: application/json; charset=UTF-8
+2016-03-10 11:47:41 DEBUG headers:116 - http-outgoing-12 << connection: close
+2016-03-10 11:47:41 DEBUG headers:116 - http-outgoing-12 << content-length: 98
+2016-03-10 11:47:41 DEBUG headers:116 - http-outgoing-12 << server: httpd.js
+2016-03-10 11:47:41 DEBUG headers:116 - http-outgoing-12 << date: Thu, 10 Mar 2016 06:17:41 GMT
+2016-03-10 11:47:41 DEBUG wire:86 - http-outgoing-12 << "{"name":"clickElement","sessionId":"6b21c2de-c913-4899-b228-c19dd7e5bfda","status":0,"value":"ok"}"
+2016-03-10 11:47:41 DEBUG DefaultManagedHttpClientConnection:87 - http-outgoing-12: Shutdown connection
+2016-03-10 11:47:41 DEBUG MainClientExec:126 - Connection discarded
+2016-03-10 11:47:41 DEBUG DefaultManagedHttpClientConnection:79 - http-outgoing-12: Close connection
+2016-03-10 11:47:41 DEBUG PoolingHttpClientConnectionManager:286 - Connection released: [id: 12][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2016-03-10 11:47:41 DEBUG Log4JPropertiesTest:198 - ***Result of execution -- Pass
+2016-03-10 11:47:41 DEBUG Log4JPropertiesTest:81 - Executing clickLink
+2016-03-10 11:47:41 DEBUG Log4JPropertiesTest:89 - Error while clicking on an Object -usernameCannot find elements when the XPath expression is null.
+2016-03-10 11:47:41 DEBUG Log4JPropertiesTest:198 - ***Result of execution -- Fail - Link Not Found
+2016-03-10 11:47:41 DEBUG RequestAddCookies:122 - CookieSpec selected: best-match
+2016-03-10 11:47:41 DEBUG RequestAuthCache:75 - Auth cache not set in the context
+2016-03-10 11:47:41 DEBUG PoolingHttpClientConnectionManager:219 - Connection request: [route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2016-03-10 11:47:41 DEBUG PoolingHttpClientConnectionManager:250 - Connection leased: [id: 13][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2016-03-10 11:47:41 DEBUG MainClientExec:217 - Opening connection {}->http://127.0.0.1:7055
+2016-03-10 11:47:41 DEBUG HttpClientConnectionOperator:120 - Connecting to /127.0.0.1:7055
+2016-03-10 11:47:41 DEBUG HttpClientConnectionOperator:127 - Connection established 127.0.0.1:56007<->127.0.0.1:7055
+2016-03-10 11:47:41 DEBUG MainClientExec:238 - Executing request GET /hub/session/6b21c2de-c913-4899-b228-c19dd7e5bfda/screenshot HTTP/1.1
+2016-03-10 11:47:41 DEBUG MainClientExec:243 - Target auth state: UNCHALLENGED
+2016-03-10 11:47:41 DEBUG MainClientExec:249 - Proxy auth state: UNCHALLENGED
+2016-03-10 11:47:41 DEBUG headers:124 - http-outgoing-13 >> GET /hub/session/6b21c2de-c913-4899-b228-c19dd7e5bfda/screenshot HTTP/1.1
+2016-03-10 11:47:41 DEBUG headers:127 - http-outgoing-13 >> Cache-Control: no-cache
+2016-03-10 11:47:41 DEBUG headers:127 - http-outgoing-13 >> Host: 127.0.0.1:7055
+2016-03-10 11:47:41 DEBUG headers:127 - http-outgoing-13 >> Connection: Keep-Alive
+2016-03-10 11:47:41 DEBUG headers:127 - http-outgoing-13 >> User-Agent: Apache-HttpClient/4.3.4 (java 1.5)
+2016-03-10 11:47:41 DEBUG headers:127 - http-outgoing-13 >> Accept-Encoding: gzip,deflate
+2016-03-10 11:47:41 DEBUG wire:72 - http-outgoing-13 >> "GET /hub/session/6b21c2de-c913-4899-b228-c19dd7e5bfda/screenshot HTTP/1.1[\r][\n]"
+2016-03-10 11:47:41 DEBUG wire:72 - http-outgoing-13 >> "Cache-Control: no-cache[\r][\n]"
+2016-03-10 11:47:41 DEBUG wire:72 - http-outgoing-13 >> "Host: 127.0.0.1:7055[\r][\n]"
+2016-03-10 11:47:41 DEBUG wire:72 - http-outgoing-13 >> "Connection: Keep-Alive[\r][\n]"
+2016-03-10 11:47:41 DEBUG wire:72 - http-outgoing-13 >> "User-Agent: Apache-HttpClient/4.3.4 (java 1.5)[\r][\n]"
+2016-03-10 11:47:41 DEBUG wire:72 - http-outgoing-13 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2016-03-10 11:47:41 DEBUG wire:72 - http-outgoing-13 >> "[\r][\n]"
+2016-03-10 11:47:41 DEBUG wire:72 - http-outgoing-13 << "HTTP/1.1 200 OK[\r][\n]"
+2016-03-10 11:47:41 DEBUG wire:72 - http-outgoing-13 << "content-type: application/json; charset=UTF-8[\r][\n]"
+2016-03-10 11:47:41 DEBUG wire:72 - http-outgoing-13 << "connection: close[\r][\n]"
+2016-03-10 11:47:41 DEBUG wire:72 - http-outgoing-13 << "content-length: 58142[\r][\n]"
+2016-03-10 11:47:41 DEBUG wire:72 - http-outgoing-13 << "server: httpd.js[\r][\n]"
+2016-03-10 11:47:41 DEBUG wire:72 - http-outgoing-13 << "date: Thu, 10 Mar 2016 06:17:41 GMT[\r][\n]"
+2016-03-10 11:47:41 DEBUG wire:72 - http-outgoing-13 << "[\r][\n]"
+2016-03-10 11:47:41 DEBUG headers:113 - http-outgoing-13 << HTTP/1.1 200 OK
+2016-03-10 11:47:41 DEBUG headers:116 - http-outgoing-13 << content-type: application/json; charset=UTF-8
+2016-03-10 11:47:41 DEBUG headers:116 - http-outgoing-13 << connection: close
+2016-03-10 11:47:41 DEBUG headers:116 - http-outgoing-13 << content-length: 58142
+2016-03-10 11:47:41 DEBUG headers:116 - http-outgoing-13 << server: httpd.js
+2016-03-10 11:47:41 DEBUG headers:116 - http-outgoing-13 << date: Thu, 10 Mar 2016 06:17:41 GMT
+2016-03-10 11:47:41 DEBUG wire:86 - http-outgoing-13 << "{"name":"screenshot","sessionId":"6b21c2de-c913-4899-b228-c19dd7e5bfda","status":0,"value":"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"
+2016-03-10 11:47:41 DEBUG wire:86 - http-outgoing-13 << "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"
+2016-03-10 11:47:41 DEBUG wire:86 - http-outgoing-13 << "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"
+2016-03-10 11:47:41 DEBUG wire:86 - http-outgoing-13 << "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"
+2016-03-10 11:47:41 DEBUG wire:86 - http-outgoing-13 << "8cyXayuD61x7sEOH3pdnnnk3kR/dVn9ojQABAAAAAAAA6IcFK0DiQecTx0/L4O0bKlUf8TEbtv0inePRadXH9WubBcbidbJh6yst12/wC2sWpgCJN+vDxnWWb5CbvOWSDjNBCgESVXTknwkDraO5EXWD0Iu5F74NVC4EwpwOt9md5eLDVYCkG+EqESJFeyknXay7V6ui1lbdSo+yAHGfNVol8sPoTIxRtdLDr0+xriZ/rqhKRBfVFk3zP/zxJsvEZplI/nc/98Q/v6OokhLJ/3Pq0AasECA6ruooS4eKAHGpG3weqkJKMz/88ZXB5qpGgGQl2VGes4IAIWRWs2bNr+Tra938ikYJ8tIHotdb+fNHnBT4zHdtmA0yOXlGPvzwbJAIU1PnRI2l7bHUmJ/jUQwbP3jugpw/fyFUhlyWi42Rg1YuXJAw+DwWIWqsECcXLhTvx4PYfbWJ/38drXUS5LKozZU2VvbvP1cRH5OTZ8Kwc1/18eePWPnOS5Py2mun5cCB92rlh6/+6GT4uQ8CBAAAAAAAAKB3FqQAqR10fuUyl3yI+ZbdR0TEzQNZ+pXtqdi4dpUsHx5trvrIK0M6aV215LYtLddv8AtrXOusebBu3QiQ"
+2016-03-10 11:47:41 DEBUG wire:86 - http-outgoing-13 << "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"
+2016-03-10 11:47:41 DEBUG wire:86 - http-outgoing-13 << "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"
+2016-03-10 11:47:41 DEBUG wire:86 - http-outgoing-13 << "QcKm4jy4l/mSsCbbSLdh7VirGV8vAAAAAAAAAAi0/abcz2Z7PNfDM3HspGz43l5Z9FcrUulBxQcChJB5GARIizWZB5u+Cy2sHWs14+sFAAAAAAAAAIG235T72WwfuGmTDD+2R4bX75Dl9z4ui264S7IrPudy5bIwDyS7dhXiAwFCyLwMAqTFmsyDTd+FFtaOtZrx9QIAAAAAAACAQNtvyn1tuC9e56o6vOzwKbe5otUVAoSQeRoESIs1mQebvgstrB1rNePrBQAAAAAAAACBtt+U+950v36tq/C45r5CelDtgQAhZIEEAdJiTebBpu9CC2vHWs34egEAAAAAAABAoO035WnZePdVHlR6zHnmeuOUkIUWBEiLNZkHm74LLawdazXj6wUAAAAAAAAAgbbflOd6w54gQAiZyyBAWqzJPNj0XWhh7VirGV8vAAAAAAAAAAi0/aY81xv2BAFCyFwGAdJiTebBpu9CC2vHWs34egEAAAAAAABAoO035bnesCcIEELmMgiQFmsyDzZ9F1pYO9ZqxtcLAAAAAAAAAAJtvyl3urG+fHhUho2VYWNl+fBox+/5DNy0KTkuzqJbn639zOCdL9UeP7T+542fqcuSZTtl6Yq9"
+2016-03-10 11:47:41 DEBUG wire:86 - http-outgoing-13 << "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"
+2016-03-10 11:47:41 DEBUG wire:86 - http-outgoing-13 << "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"
+2016-03-10 11:47:41 DEBUG wire:86 - http-outgoing-13 << "qtOg+JyIqEOQ6eGHAAQAAABSRv+f8kMGIB8/NP5P//G4+rx30fufvQ+bd6djV198frpOXztPVgIQpZRS6v51eQBSzwbJG2HIv/3bv80MPwQgAAAAkDL6/5TfMgBp/h/7KgCp3jsGGVWIsf4YnffuyxB+sQ77L75uhB6Hnz+E7YvNMhGAKKWUUvev6wQgYzNCpoQfAhAAAABIGf1/yo82A6QRYvxiHcIvvgzrOuRInnf6+XBu3E53AOEZZ4EIQJRSSqn71+0DkKnhhwAEAAAAUkb/n/LzByCnWR3dAOQ5Z3wIQJRSSqm3r9sGIHPCDwEIAAAApIz+P+VHC0DSS2A135sSgLTb6QYrz1P3DECUUkop9bgFAAAAnDxfAHL8eWAT9CkBSKed550NIgBRSimlVJYJQAAAACD2mAGIergABAAAAAAAnslDBiDXW0v7vHrrQEMAAgAAAAAAl3nIAEQJQAAAAAAA4BICkBcoAQgAAAAAADQJQF6gBCAAAAAAAND0MAHIp0+f1AUlAAEAAAAAgJOHCUCyTJ1bAhAAAAAAAGh6qADkrZeSetYSgAAAAAAAQJMA5AVKAAIAAAAAAE0CkBcoAQgAAAAAADQJQF6gBCAAAAAA"
+2016-03-10 11:47:41 DEBUG wire:86 - http-outgoing-13 << "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"
+2016-03-10 11:47:41 DEBUG wire:86 - http-outgoing-13 << "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"
+2016-03-10 11:47:41 DEBUG wire:86 - http-outgoing-13 << "+9i6zjEcqY4//lxft6e93n4LQLgNAQgAAADA6xCAvEAJQF7d9ACkeUw4BBaNvTvqY+vgoR0sjF1/X80C6VsCqzUTpR149AUk7QBktN/TCECYSwACAAAA8DoEIC9QApBXd8YSWK3ZIKlKzxAZv/5+s4qWsmrN2DiGFvXP5wUg4/2eRgDCXAIQAAAAgNfxMAHIp0+f1AUlAHllqZBiYBPyavbEccmq1kyK8bZ7jmmHF1l3xsYpnOhZAuuCGSDnEIAwlwAEAAAA4HU8TADS99fearwEIK9vu27NfmgFCo33q/caMzH6goazApB4hkYzsGjMErlkCazR9+0Bwm0IQAAAAABex0MFIG+9lNSzlgBkGeqQ41jJJbGqagQD8YyN9qyR8wKQzqbmnf6twybes2N2ADLWbwEItyEAAQAAAHgdApAXKAEIpAlAmEsAAgAAAPA6BCAvUAIQSBOAMJcABAAAAOB1CEBeoAQgkCYAYS4BCAAAAMDrEIC8QAlAIE0AwlwCEAAAAIDX8ZgByDfvwyorQxbV+uMVwoJv3ofVuy8b17io3Wu3JwCBq/r+t38Iv//jn966GzyJ3//xTwIQAAAAgBfy0AFIHSbsv/g6ZNnXYfPNJUHB"
+2016-03-10 11:47:41 DEBUG wire:86 - http-outgoing-13 << "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"
+2016-03-10 11:47:41 DEBUG wire:86 - http-outgoing-13 << "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"
+2016-03-10 11:47:41 DEBUG wire:86 - http-outgoing-13 << "430IuktuVcesN439VDr7FxyX8+ofxO/cR7T00WnQ+BRsdWf8RP1JBE91ULZZx++19mgZWALp2Pe+a8fficYxzeWQGgPfyeOSD6f1fvo+Jy+Jlvy9SYc68wOQvmWf6s937P3GBc4IfqYFFsnrJZ/LjABkxnM9fvbdB374XamfVfLZv2X4BwAAAMC9CUAWVmG7CYdsYGyvj33YrKcED4flpI7tXDMAGX2vr+unpXI6s0D2m7CKZ8BEI6Htvxg/vh8Ptg/sx9Dc2LoOOJrtHwbE40H41rNIDAQP7XvQuY/WJtHxrJtmSBUPArcHy0/31fdX981n12q/cQ+tv8xvXzsZ8DSXfToctw3beN+Z5HPt6nuvu5RUCNvthFHxZwhAkt+BKZ4kABl67/i72vc7Yy8QAAAAgCURgCysmjNAUsv2rE8D+BNmgMT7iVQv9A7s9gcgrQH0trnL1sR7BbQG3ONNolOD+J2ZGI2ZE81+pwbRo3cHApD0+/F5p2cxvh/K0AyQZJvt9zszM5phz+Am69Fgezz7pf+xJDbmTnwn2mHUfrttPrdOf9OzHfqXB2sFd2EbpuQfyYH6ns3GrxOAxN+TsfdT15gzg+r8ACQdqF4YgIxs4t79"
+2016-03-10 11:47:41 DEBUG wire:86 - http-outgoing-13 << "/auX/Kp/l9MhyKssfQcAAADAOAHIwuo0oN5dMz+eHTFpD5DtOjG4efkeIB37TVidG4DE99lqpxuADCwZlAhAhgdSzw1AmoPJp0Cq31UCkIHnmw5AqkHmaEZLvDTWpQFIc6Ptbdi0Ps+p49dDn1G8dNt+s5m2V8ZT7QHS7sPIsmUTA4tL9wCJZxUdZ6jMeK5RQ43Ptr0Re19wJwABAAAAWA4ByMIqhOasjcZgZDxQOhY4xGFJS3sgsv3X3WPvJxo8ewmsU/tZWK16lrg6/DQ8cN83A6T3OZ0fgJxmxGwnLUN2nRkg/c+/O5DcHtgeG6SPTA1Aonaa4cS8JYwGP6PjfccBy2iLnQBmcJmtWQFIYlZD67ix9ztaIcGwic+2EU4NnTfns5r+XOP3T8f3BasXzEoBAAAA4OkJQBZWtb6/jh7fGySkZ2TEM0YaA6SJAcex9xtSg5gjOuFMvWxSe2+N5jNo7uFRHbOp3k8tGZbaZD16Ds32o7++j/cB6RmcrjflnjJ2PTsAiQaLD+FCYjZQFAr0BSDtfUeaG4q3Z8s0NzQ/XTvV39OzzLJVWLWXYqsCreYt98zgGAx3queyGp9l02mz9bmmPqfBpcN6lqBrz0TqzlYYez82dyP0kaXoGt3v2/PlvPaO7Ux4riGExH+DEt/h5Mwmm6ADAAAALIkAZGHV0NosOZsyWNm3X0R7ADQ6Ltlm7/tjy/TU7w/s+ZA6N55F0rnv1oBye3mexj2nQ5DuLJr2e+uwSW6CPnWPioTUfWzbG2CnrnV6rR2KtJ9deobQKaA5vL4O61XzXhrvZ93ZIsfXBjfs7h+s7m+/c+TgklndWQapMGj4+t22288ysXTaUN/jZzK0t0fn/eHrDmr/Xie+x6mlt3o3HB9qb0Dvcx36PUv2qeeYufsJAQAAAPDUbheAJAfJ1TUqz/PrBCDPbL8JE/Zof2Ljm58zkUFvQghjYRgAAAAAr0cA8oS17ABk2l/oP7spm58z3dh+Erw6e38AAAAALNHNA5BQqmuWAOSFjS0bxmU6e8OwFNu1mR8AAAAASyQAebISgAAAAAAAwDgByJOVAAQAAAAAAMYJQJ6sBCAAAAAAADBOAPJkJQABAAAAAIBxApAnKwEIAAAAAACME4A8WQlAAAAAAABgnADkyUoAAgAAAAAA4wQgT1YCEAAAAAAAGCcAebISgAAAAAAAwLibByBloa5VRZ4dn6sABAAAAAAA+t08AFE3KgEIAAAAAAD0ulkAkud5yLIsFEURyrJUVyoBCAAAAAAAjLt5ALLb7e5xH4shAAEAAAAAgHFvEoDsdruHDEam9Out+y4AAQAAAACAcXcNQHa73fH14ybpZdm5ZlEUx+WzavXyT/Fr8etlWYbdbtc4pr5WfI32MXUb7X61rzPW91S7tyAAAQAAAACAcXcNQOLgIN7Poj2jIg4Z2ufned44Nr5OXwCSZafbbB9T9yPP82O/4v1LpvZdAAIAAAAAAI/jbgFIHRDEAcZutwtFUTRCjjiQaM+yqGeG9IUiQwFI/VrfMW15nnfOGep7fUxqRss1CUAAAAAAAGDcXWeAtAOJVFgQn5cKHVKzN+p2+sKNvlkic2ZtjPVdAAIAAAAAAI/j7nuA1LM46srzvHeWyNiMj/bsjb4AJG53LAApikPf64r7NtT3um+33iBdAAIAAAAAAOPuGoDEyrLsbHYeL39VFEVyM/Q4FGm/N7S8VX1evL9H34bodQjS1/9U30MQgAAAAAAAwKO4WwDSXq7q2H5iRkeqavFsjnZ7Y/t7pPYE6Qs64qBlSt/rc25NAAIAAAAAAOPuvgl6HSSUZdkIMfr246iDiDh8iIOM2FgAUgcZfbNO6n7FS13F+4b09b2+dt3G7ewEIAAAAAAAMMHd9wBpz/Kog4hU0FGf07cMVjssGQtA+s6NA424X1P73tfPq9rtQtgJQAAAAAAAYIo32QOknlXxiMb6dde+V9fa7cqwK8tQxpuwC0AAAAAAAKDXm22CzpDdccZHHXyURRHKeAaKAAQAAAAAAHoJQB7FLkQzPg7Bx66owo+8CEVeNPYmEYAAAAAAAEC/uwYg8f4Z7b05zr6BnnaufZ1bOi6rdQw+TjM+iroKAQgAAAAAAEx19wCk0fbEcGIo5JjS7qOGILt4xke1z8eumvFRL3tVxFWWAhAAAAAAAJjgIQKQeKZGauZG30yOqQFIu92ha93EbhfKsgxluWuFHvFyV0XY5XnY5dWSV1XokUcBSCkAAQAAAACASd58CayhoKMv4Ei9ljqv954G2r2W47JW4RB+5Hl+rKLIQ1mWYVcHI/lhuatDFaGIjs2O5whAAAAAAABgqjebAZKahTE3ABk7b+icoePOtztWWZahKPLD7I6yjPbyqMKM4z4fRdjlh9kfZXE4Js+yqg7PMM/zUJSlAAQAAAAAACZ68yWwpszkuHQGyJxgZVwVcuzaVR6qPNWuKMIu/ndced6oesPzLD/0tQ5A8swMEAAAAAAAmOvNA5D6f8dmgEyd4RH/u2+/j2kBSCrk2HVCjlMVIRTd6gYf3fBjd1z+qpolcgxAstPMkTogEYAAAAAAAMCouwYgjy0xsyOezRHN4hgMOI4hRzroGK6i2gQ9D0V2qHpfkDogEYAAAAAAAMC4ZQcgUdCxi2s02Dgn3IgqiwOP1utRlVXFrwlAAAAAAABg3LICkCrw2O12h705itTeHFcIOBJhxrHi9/IiCkMSxyVeF4AAAAAAAMC4ZQQgu10I5a45uyO/4oyOuSFI3wyQznJY3dcFIAAAAAAAMO61A5BdHXqU6Q3IRwOKaaHE0H4eyev0BSUTXheAAAAAAADAuNcMQHa7UJZlKNtLWg0FHkMzNHoDkfkzQNp7eswtAQgAAAAAAIx7uQCk3t+jLIpDAFJVOTUAyfNQ5ofjizwPRZaHPMtDnmXHKrL8WGV+qLHQ41olAAEAAAAAgHGvFYDU4UdZVv9bhLLIT5U3Z2DUoUI7rKhDj2PYMFCHQCQ7hiHXDjwEIAAAAAAAMN9LBSC7aumrXR2AFEUoogAkng3SCReOsz3GQ4/+IOQwa6Td9lAoYgksAAAAAAC4vhcKQHZhtyvDroyWvarDjlRlWSOYKKoQ45zwIw5B8iw7hiBTlsISgAAAAAAAwPU9fwCy21VVhlCWh/Ajb21+3gg+ujMzipHlruL9Pw6v5SHLq+o5fkoAYhN0AAAAAAC4jecOQHa75ibnA5uR94UPlyx7lWVZdZ/dICTPsuTG65eEHwIQAAAAAACY5skDkLIKPrJQ5lknAOnbf+MYRuRFMvxov5Znecjzqo6zQfLm+4kQpMi6YYwABAAAAAAAbu9FApA8hLI4VHFY9mpKyFAMLGF1DDGK4lj1ButlvcF6XgyGIPXG6KUABAAAAAAA7urJA5BqCaw8D7sqANkVeXLpqTkBSB1o1KFHnh/+fbjkLhRFfnytKIreNtr7gVy6/4cABAAA"
+2016-03-10 11:47:41 DEBUG wire:86 - http-outgoing-13 << "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"
+2016-03-10 11:47:41 DEBUG wire:86 - http-outgoing-13 << "AAAAAAAoMEBiAQAAAABAgQESCwAAAAAACgyQWAAAAAAAUGCAxAIAAAAAgAIDJBYAAAAAABQYILEAAAAAAKDAAIkFAAAAAAAFBkgsAAAAAAAoMEBiAQAAAABAgQESCwAAAAAACgyQWAAAAAAAUGCAxAIAAAAAgAIDJBYAAAAAABQYILEAAAAAAKDAAIkFAAAAAAAFBkgsAAAAAAAoMEBiAQAAAABAgQESCwAAAAAACgyQWAAAAAAAUGCAxAIAAAAAgAIDJBYAAAAAABQYILEAAAAAAKDAAIkFAAAAAAAFBkgsAAAAAAAoMEBiAQAAAABAgQESCwAAAAAACgyQWAAAAAAAUGCAxAIAAAAAgAIDJBYAAAAAABQYILEAAAAAAKDAAIkFAAAAAAAFBkgsAAAAAAAoMEBiAQAAAABAgQESCwAAAAAACgyQWAAAAAAAUGCAxAIAAAAAgAIDJBYAAAAAABQYILEAAAAAAKDAAIkFAAAAAAAFBkgsAAAAAAAoMEBiAQAAAABAgQESCwAAAAAACgyQWAAAAAAAUGCAxAIAAAAAgAIDJBYAAAAAABQYILEAAAAAAKDAAIkFAAAAAAAFBkgsAAAAAAAoMEBiAQAAAABAgQESCwAAAAAACgyQWAAAAAAAUGCAxAIAAAAAgAIDJBYAAAAAABQYILEAAAAAAKDAAIkFAAAAAAAFBkgsAAAAAAAoMEBiAQAAAABAgQESCwAAAAAACgyQWAAAAAAAUGCAxAIAAAAAgAIDJBYAAAAAABQYILEAAAAAAKDAAIkFAAAAAAAFBkgsAAAAAAAoMEBiAQAAAABAgQESCwAAAAAACgyQWAAAAAAAUGCAxAIAAAAAgAIDJBYAAAAAABQYILEAAAAAAKDAAIkFAAAAAAAFBkgsAAAAAAAoMEBiAQAAAABAgQESCwAAAAAACgyQWAAAAAAAUGCAxAIAAAAAgAIDJBYAAAAAABQYILEAAAAAAKDAAIkFAAAAAAAFBkgsAAAAAAAoMEBiAQAAAABAgQESCwAAAAAACgyQWAAAAAAAUGCAxAIAAAAAgAIDJBYAAAAAABQYILEAAAAAAKDAAIkFAAAAAAAFBkgsAAAAAAAoMEBiAQAAAABAgQESCwAAAAAACgyQWAAAAAAAUGCAxAIAAAAAgAIDJBYAAAAAABQYILEAAAAAAKDAAIkFAAAAAAAFBkgsAAAAAAAoMEBiAQAAAABAgQESCwAAAAAACgyQWAAAAAAAUGCAxAIAAAAAgAIDJBYAAAAAABQYILEAAAAAAKDAAIkFAAAAAAAF5wABAAAAAAD4jQECAAAAAADMMUAAAAAAAIA5BggAAAAAADDHAAEAAAAAAOYYIAAAAAAAwBwDBAAAAAAAmGOAAAAAAAAAcx515T1LmNOsKAAAAABJRU5ErkJggg=="}"
+2016-03-10 11:47:41 DEBUG DefaultManagedHttpClientConnection:87 - http-outgoing-13: Shutdown connection
+2016-03-10 11:47:41 DEBUG MainClientExec:126 - Connection discarded
+2016-03-10 11:47:41 DEBUG DefaultManagedHttpClientConnection:79 - http-outgoing-13: Close connection
+2016-03-10 11:47:41 DEBUG PoolingHttpClientConnectionManager:286 - Connection released: [id: 13][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2016-03-10 11:47:41 DEBUG Log4JPropertiesTest:248 - ######################SigninTest --- Fail - Link Not Found
+2016-03-10 11:47:41 DEBUG RequestAddCookies:122 - CookieSpec selected: best-match
+2016-03-10 11:47:41 DEBUG RequestAuthCache:75 - Auth cache not set in the context
+2016-03-10 11:47:41 DEBUG PoolingHttpClientConnectionManager:219 - Connection request: [route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2016-03-10 11:47:41 DEBUG PoolingHttpClientConnectionManager:250 - Connection leased: [id: 14][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2016-03-10 11:47:41 DEBUG MainClientExec:217 - Opening connection {}->http://127.0.0.1:7055
+2016-03-10 11:47:41 DEBUG HttpClientConnectionOperator:120 - Connecting to /127.0.0.1:7055
+2016-03-10 11:47:41 DEBUG HttpClientConnectionOperator:127 - Connection established 127.0.0.1:56008<->127.0.0.1:7055
+2016-03-10 11:47:41 DEBUG MainClientExec:238 - Executing request DELETE /hub/session/6b21c2de-c913-4899-b228-c19dd7e5bfda HTTP/1.1
+2016-03-10 11:47:41 DEBUG MainClientExec:243 - Target auth state: UNCHALLENGED
+2016-03-10 11:47:41 DEBUG MainClientExec:249 - Proxy auth state: UNCHALLENGED
+2016-03-10 11:47:41 DEBUG headers:124 - http-outgoing-14 >> DELETE /hub/session/6b21c2de-c913-4899-b228-c19dd7e5bfda HTTP/1.1
+2016-03-10 11:47:41 DEBUG headers:127 - http-outgoing-14 >> Host: 127.0.0.1:7055
+2016-03-10 11:47:41 DEBUG headers:127 - http-outgoing-14 >> Connection: Keep-Alive
+2016-03-10 11:47:41 DEBUG headers:127 - http-outgoing-14 >> User-Agent: Apache-HttpClient/4.3.4 (java 1.5)
+2016-03-10 11:47:41 DEBUG headers:127 - http-outgoing-14 >> Accept-Encoding: gzip,deflate
+2016-03-10 11:47:41 DEBUG wire:72 - http-outgoing-14 >> "DELETE /hub/session/6b21c2de-c913-4899-b228-c19dd7e5bfda HTTP/1.1[\r][\n]"
+2016-03-10 11:47:41 DEBUG wire:72 - http-outgoing-14 >> "Host: 127.0.0.1:7055[\r][\n]"
+2016-03-10 11:47:41 DEBUG wire:72 - http-outgoing-14 >> "Connection: Keep-Alive[\r][\n]"
+2016-03-10 11:47:41 DEBUG wire:72 - http-outgoing-14 >> "User-Agent: Apache-HttpClient/4.3.4 (java 1.5)[\r][\n]"
+2016-03-10 11:47:41 DEBUG wire:72 - http-outgoing-14 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2016-03-10 11:47:41 DEBUG wire:72 - http-outgoing-14 >> "[\r][\n]"
+2016-03-10 11:47:41 DEBUG wire:72 - http-outgoing-14 << "HTTP/1.1 200 OK[\r][\n]"
+2016-03-10 11:47:41 DEBUG wire:72 - http-outgoing-14 << "content-type: application/json; charset=UTF-8[\r][\n]"
+2016-03-10 11:47:41 DEBUG wire:72 - http-outgoing-14 << "connection: close[\r][\n]"
+2016-03-10 11:47:41 DEBUG wire:72 - http-outgoing-14 << "content-length: 88[\r][\n]"
+2016-03-10 11:47:41 DEBUG wire:72 - http-outgoing-14 << "server: httpd.js[\r][\n]"
+2016-03-10 11:47:41 DEBUG wire:72 - http-outgoing-14 << "date: Thu, 10 Mar 2016 06:17:41 GMT[\r][\n]"
+2016-03-10 11:47:41 DEBUG wire:72 - http-outgoing-14 << "[\r][\n]"
+2016-03-10 11:47:41 DEBUG headers:113 - http-outgoing-14 << HTTP/1.1 200 OK
+2016-03-10 11:47:41 DEBUG headers:116 - http-outgoing-14 << content-type: application/json; charset=UTF-8
+2016-03-10 11:47:41 DEBUG headers:116 - http-outgoing-14 << connection: close
+2016-03-10 11:47:41 DEBUG headers:116 - http-outgoing-14 << content-length: 88
+2016-03-10 11:47:41 DEBUG headers:116 - http-outgoing-14 << server: httpd.js
+2016-03-10 11:47:41 DEBUG headers:116 - http-outgoing-14 << date: Thu, 10 Mar 2016 06:17:41 GMT
+2016-03-10 11:47:41 DEBUG wire:86 - http-outgoing-14 << "{"name":"quit","sessionId":"6b21c2de-c913-4899-b228-c19dd7e5bfda","status":0,"value":""}"
+2016-03-10 11:47:41 DEBUG DefaultManagedHttpClientConnection:87 - http-outgoing-14: Shutdown connection
+2016-03-10 11:47:41 DEBUG MainClientExec:126 - Connection discarded
+2016-03-10 11:47:41 DEBUG DefaultManagedHttpClientConnection:79 - http-outgoing-14: Close connection
+2016-03-10 11:47:41 DEBUG PoolingHttpClientConnectionManager:286 - Connection released: [id: 14][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2016-03-10 11:55:28 INFO  Log4JPropertiesTest:168 - Executing verifyText
+2016-03-10 11:55:30 INFO  Log4JPropertiesTest:168 - Executing verifyText
+2016-03-10 11:57:24 INFO  Log4JPropertiesTest:168 - Executing verifyText
+2016-03-10 12:01:21 INFO  Log4JPropertiesTest:168 - Executing verifyText
+2016-03-10 12:01:23 INFO  Log4JPropertiesTest:168 - Executing verifyText
+2016-03-10 12:02:15 INFO  Log4JPropertiesTest:168 - Executing verifyText
+2016-03-10 12:02:19 INFO  Log4JPropertiesTest:168 - Executing verifyText
